@@ -15,7 +15,7 @@ schedule: ['Mondays, 4:30-6:30, McNeal Hall 395']
 
 {{ page.catalog }}, {{ page.credits }} Credits, {{ page.semester }}
 
-### Professor
+### Professors
 
 {{ page.professor }}
 
@@ -51,7 +51,7 @@ periodically for updates.
 
 ### Course Communications
 
-Email: [{{ page.email }}](mailto:{{ page.email }})
+Email: [{{ page.email }}](mailto:{{ page.email }}), [dcarivea@umn.edu](mailto:dcarivea@umn.edu)
 
 
 ### Required Texts
@@ -127,7 +127,7 @@ Students will be provided with reading material that they are expected to
 read prior to class. Classes will
 involve brief refreshers on new concepts followed by working on exercises in
 class that cover that concept. While students are working on exercises the
-instructor will actively engage with students to help them understand material
+instructors will actively engage with students to help them understand material
 they find confusing, explain misunderstandings and help identify mistakes that
 are preventing students from completing the exercises, and discuss novel
 applications and alternative approaches to the data analysis challenges students
@@ -135,7 +135,6 @@ are attempting to solve. For more challenging topics class may start with 20-30
 minute demonstrations on the concepts followed by time to work on exercises.
 
 ## Course Policies
-
 
 ### Grading Policy
 
