@@ -5,7 +5,7 @@ title: Getting Started
 
 Self-Guided Students
 : <a href="http://www.datacarpentry.org/semester-biology/START-for-self-guided-students/">
-  <i class="fa fa-play-circle fa-fw"></i> Start Here</a>
+  <i class="fa fa-play-circle fa-fw"></i> Start Here</a> (Data Carpentry site)
 
 Semester-long Course Students
 : <a href="{{ site.baseurl}}/computer-setup">
