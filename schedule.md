@@ -1,11 +1,18 @@
 ---
 layout: page
 title: Assignment Schedule
-assignments: ['Data Entry and Storage', 'Database Queries',
-'Introduction to R and RStudio', ' ”Hurricane Week” ', 'Working with Data', 'Data Visualization',
-'Projects Structure', 'Version Control', 'Working with Spatial Data', 'Programming Fundamentals 1',
-'Programming Fundamentals 2', 'Project Week', 'Knitr',
-'gganimate', 'tidyr', 'Project Week']
+assignments: ['Introduction and Data Life Cycle',
+'Workflow with git and RStudio',
+'Data Collection and QC',
+'Metadata',
+'Relational Data 1',
+'Relational Data 2',
+'APIs and data integration',
+'Data Manipulation',
+'Data Visualizations',
+'R-Markdown and R-Shiny',
+'Post-publication and archiving',
+'Data Management Toolbox']
 ---
 
 {% include assignments.html %}
