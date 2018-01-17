@@ -11,7 +11,7 @@ permalink:        pretty
 # Setup
 title:            Data Management for Biologists
 description:      'Surveying the hidden parts of the data life cycle'
-url:              https://pages.github.umn.edu/elind/data-mgmt-4-biologists/
+url:              http://pages.github.umn.edu/elind/data-mgmt-4-biologists/
 baseurl:          /data-mgmt-4-biologists
 email:            elind@umn.edu
 feedbackurl:      
