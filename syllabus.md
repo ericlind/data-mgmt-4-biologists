@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Syllabus
-catalog: WIS 6934
+catalog: ENT 5924
 credits: 2
 semester: Spring 2018
 professor: Eric Lind & Dan Cariveau
