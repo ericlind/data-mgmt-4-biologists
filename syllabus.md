@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Syllabus
-catalog: ENT 5924
+catalog: ENT 5920
 credits: 2
 semester: Spring 2018
 professor: Eric Lind & Dan Cariveau
