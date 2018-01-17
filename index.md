@@ -9,7 +9,7 @@ combining readings and short lectures with hands-on exercises,
 it is also available as a resource for self-guided students. 
 Students will be encouraged to complete assignments using their own data.
 
-This website is a modification of the wonderful work of [Ethan White](ethanwhite.org),
+This website is a modification of the wonderful work of [Ethan White](http://ethanwhite.org),
 [Zachary Brym](http://zackbrym.weecology.org/), and [many collaborators](https://github.com/datacarpentry/semester-biology/graphs/contributors).
 
 
