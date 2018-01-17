@@ -2,16 +2,18 @@
 layout: default
 ---
 
-This website hosts introductory material for teaching biologists how to interact
-with data including: data structure, database management systems, and
-programming for data manipulation, analysis, and visualization. It is designed
-to be used as a flipped university course and also to be useful for self-guided
-students. Instructors are welcome to modify and use the material for your own 
-courses. We encourage collaborative development and contributions by 
-instructors, with the hopes that this will lead to better training and resources 
-for everyone. 
+This website hosts the schedule and material for ENT5920, a course focused
+on providing hands-on experience in organizing, managing, curating, 
+and accessing data. Conceived as a topic-driven weekly seminar (12 sessions at ~2h each), 
+combining readings and short lectures with hands-on exercises, 
+it is also available as a resource for self-guided students. 
+Students will be encouraged to complete assignments using their own data.
 
-For Students
+This website is a modification of the wonderful work of [Ethan White](ethanwhite.org),
+[Zachary Brym](http://zackbrym.weecology.org/), and [many collaborators](https://github.com/datacarpentry/semester-biology/graphs/contributors).
+
+
+For Students:
 : <a href="{{ site.baseurl}}/syllabus">
   <i class="fa fa-file-text-o fa-fw"></i> Syllabus</a>
 : <a href="{{ site.baseurl}}/schedule">
@@ -19,24 +21,8 @@ For Students
 : <a href="{{ site.baseurl}}/computer-setup">
   <i class="fa fa-download fa-fw"></i> Setup</a>
 : <a href="{{ site.baseurl}}/materials/projects">
-  <i class="fa fa-folder-open fa-fw"></i> Projects</a>
-: <a href="{{ site.baseurl }}/materials/turn-in-checklist">
   <i class="fa fa-check-square fa-fw"></i> Assignment Submission & Checklist</a>
 : <a href="{{ site.baseurl}}/START-for-self-guided-students">
   <i class="fa fa-play-circle fa-fw"></i> Self-Guided Start-Up Guide</a>
 : <a href="{{ site.baseurl}}/materials/datasets">
   <i class="fa fa-download fa-fw"></i> Datasets</a>
-
-For Instructors
-: <a href="{{ site.baseurl}}/readings">
-  <i class="fa fa-book fa-fw"></i> Readings</a>
-: <a href="{{ site.baseurl}}/lectures">
-  <i class="fa fa-comment fa-fw"></i> Lectures</a>
-: <a href="{{ site.baseurl}}/materials">
-  <i class="fa fa-list-alt fa-fw"></i> Lecture Materials</a>
-: <a href="{{ site.baseurl}}/assignments">
-  <i class="fa fa-keyboard-o fa-fw"></i> Assignments</a>
-: <a href="{{ site.baseurl}}/exercises">
-  <i class="fa fa-magic fa-fw"></i> Exercises</a>
-: <a href="{{ site.baseurl}}/docs">
-  <i class="fa fa-question-circle fa-fw"></i> Course Development Help</a>
