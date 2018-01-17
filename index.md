@@ -9,9 +9,6 @@ combining readings and short lectures with hands-on exercises,
 it is also available as a resource for self-guided students. 
 Students will be encouraged to complete assignments using their own data.
 
-This website is a modification of the wonderful work of [Ethan White](http://ethanwhite.org),
-[Zachary Brym](http://zackbrym.weecology.org/), and [many collaborators](https://github.com/datacarpentry/semester-biology/graphs/contributors).
-
 
 For Students:
 : <a href="{{ site.baseurl}}/syllabus">
@@ -26,3 +23,8 @@ For Students:
   <i class="fa fa-play-circle fa-fw"></i> Self-Guided Start-Up Guide</a>
 : <a href="{{ site.baseurl}}/materials/datasets">
   <i class="fa fa-download fa-fw"></i> Datasets</a>
+
+
+
+This website is a modification of the wonderful work of [Ethan White](http://ethanwhite.org),
+[Zachary Brym](http://zackbrym.weecology.org/), and [many collaborators](https://github.com/datacarpentry/semester-biology/graphs/contributors).
