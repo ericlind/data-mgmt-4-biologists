@@ -72,7 +72,7 @@ Students will encounter the data life cycle from generation to preservation.
 No prerequisites are required. However, we strongly recommend that students have
 basic experience in a scripting or coding environment (e.g., R, SAS, Python,
 SQL etc) or experience with a command line shell (CMD, Linux). Most of 
-the course will be taught using [R](www.r-project.org) in [R Studio](www.rstudio.com).
+the course will be taught using [R](http://www.r-project.org) in [R Studio](http://www.rstudio.com).
 
 ### Course Technology
 
