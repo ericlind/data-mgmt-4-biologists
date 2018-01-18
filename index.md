@@ -17,8 +17,6 @@ For Students:
   <i class="fa fa-calendar fa-fw"></i> Schedule</a>
 : <a href="{{ site.baseurl}}/computer-setup">
   <i class="fa fa-download fa-fw"></i> Setup</a>
-: <a href="{{ site.baseurl}}/START-for-self-guided-students">
-  <i class="fa fa-play-circle fa-fw"></i> Self-Guided Start-Up Guide</a>
 : <a href="{{ site.baseurl}}/materials/datasets">
   <i class="fa fa-download fa-fw"></i> Datasets</a>
 
@@ -26,3 +24,6 @@ For Students:
 
 This website is a modification of the wonderful work of [Ethan White](http://ethanwhite.org),
 [Zachary Brym](http://zackbrym.weecology.org/), and [many collaborators](https://github.com/datacarpentry/semester-biology/graphs/contributors).
+
+There is a rich set of self-guided material available in Dr. White's
+course: [Data Carpentry for Biologists](http://www.datacarpentry.org/semester-biology/)
