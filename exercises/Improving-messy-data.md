@@ -2,7 +2,7 @@
 layout: exercise
 topic: Tidy Data
 title: Improving Messy Data
-language: SQL
+language: Excel
 ---
 
 MS Excel is a _visual_ data medium--a spreadsheet. People naturally
@@ -23,7 +23,7 @@ Download the [bird dataset](https://ericlind.github.io/data-mgmt-4-biologists/da
 containing some of data from two years of this survey work. Note that there are multiple tabs in this
 spreadsheet.
 
-1. Find the mean number of birds observed (regardless of species) 
+1. Find the mean and variance of the number birds observed _per species_
 for each WMA (a) in each year and (b) across years.
 
 2. Think about what could be improved about this data. With a partner
@@ -35,4 +35,3 @@ or in a small group, identify five things about this data that cause
 3. Evidently between the 2016 and 2017 field season, your birder colleague
 heard something about long versus wide data and switched up the data entry. 
 So you prefer one or the other approach? How would you combine the two?
-
