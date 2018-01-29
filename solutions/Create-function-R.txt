@@ -1,0 +1,8 @@
+se_m <- function(x) sd(x) / sqrt(length(x))
+se_m(1:20)  # 1.322876
+se_m(c(NA, 1:20))
+	
+# !is.na version
+se_m <- function(x) sd(x[!is.na(x)]) / sqrt(length(x[!is.na(x)]))
+se_m(1:20)
+se_m(c(NA, 1:20))

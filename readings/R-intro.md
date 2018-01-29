@@ -7,17 +7,6 @@ language: R
 * Overview Reading
   * [Best Practices for Scientific Computing](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)   
 
-* Topics
-
-  * R & RStudio
-  * Expressions & Variables
-  * Types
-  * Errors
-  * Vectors & Data Frames
-  * Importing Data
-  * Readable Code
-  * git in RStudio
-
 * Applied Readings
 
   * [Getting Started](http://www.datacarpentry.org/R-ecology-lesson/00-before-we-start.html)

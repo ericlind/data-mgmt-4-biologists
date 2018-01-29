@@ -1,23 +1,23 @@
 ---
 layout: page
 element: assignment
-title: Introduction to R and RStudio
+title: Workflow with git and RStudio
 language: R
-exercises: ['Basic Expressions', 'Basic Variables', 'More Variables', 'Built-in Functions', 'Modify the Code', 'Code Shuffle', 'Bird Banding', 'Shrub Volume Vectors', 'Shrub Volume Data Frame']
+exercises: ['Install packages', 'Create script', 'Create function', 'Read in data']
 ---
 
 #### Learning Objectives
 
 > Following this assignment students should be able to:
 >
-> - execute simple math in the R console
-> - assign and manipulate variables
-> - use built-in functions for math and stats
-> - understand the assignment and execute flow of an R script
-> - understand the vector and data frame object structures
-> - assign, subset, and manipulate data in a vector
-> - execute vector algebra
-> - import data frames and interact with columns as vectors
+> - explain why coding is advantageous for data management
+> - format R code for readability and clarity
+> - add comments and breaks to R code
+> - call R scripts from within R scripts (sourcing)
+> - write simple custom R functions
+> - organize and R project and workspace
+> - connect to git, and perform `commit`, `push`, and `pull`
+
 
 {% include reading.html %}
 

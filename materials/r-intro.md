@@ -27,90 +27,12 @@ language: R
             * It's easier and with fewer mistakes.
     * Environment/History
     * Project management
+    * Options/Preferences (Tomorrow Night 80s)
 
-> Create new folder for scripts
-
-### Basic expressions
-
-* Write code directly in the interpreter
-
-```
-2 + 5
-4 * 2 / 3
-```
-
-* Write code in text editor and the run either by line or all code
-
-```
-2 + 5
-4 * 2 / 3
-```
-
-* `Source` vs `Source with Echo`
-
-> Create notes R script, put in new folder
-
-### Types
-
-* All values have types
-
-```
-str(2)
-str('hello world')
-```
-
-### Variables
-
-* A variable is a name that has a value associated with it
-    * Assign using `<-` or `=`
-
-```
-weight <- 26
-```
-
-* It works just like the value itself
-
-```
-double_weight <- weight * 2
-```
-
-* It won't change unless you assign a new value to it directly
-
-```
-weight
-weight * 2
-weight
-weight <- 22
-weight
-```
-
-### Assignments format
-
-* Comment before each problem and each sub-problem
-
-```
-# Problem 1
-
-# 1.1
-2 + 2
-
-# 1.2
-2 - 8
-
-# Problem 2
-
-width = 2
-height = 3
-length = 1.5
-volume = width * height * length
-volume
-```
-> Create assignment script, put in new folder
-
-> Do [Exercise 1 - Basic Expressions]({{ site.baseurl }}/exercises/Expressions-and-variables-basic-expressions-R/)
-
-> Do [Exercise 2 - Basic Variables]({{ site.baseurl }}/exercises/Expressions-and-variables-basic-variables-R/)
-
+### Basic operations
+* cmd-Enter / Ctrl -R
+* option- - / <-
+* functions: ()
 
 ### Functions
 
@@ -143,5 +65,14 @@ pi_approx <- round(3.14159, 2)
 pi_approx
 ```
 
-> Do [Exercise 4 - Built-in Functions]({{ site.baseurl }}/exercises/Functions-built-in-functions-R/)
+### installing & loading packages
+* packages are collections of specialized functions and other code
+* installing from RStudio menus
+* installing from command line
+* installing versus making active in environment
+* `library()` v `require()`
+
+> Do [Exercise 1 - Install packages]({{ site.baseurl }}/exercises/Install-packages-R/)
+
+
 
