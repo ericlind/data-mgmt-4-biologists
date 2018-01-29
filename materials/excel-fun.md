@@ -11,8 +11,6 @@ be quite useful if you learn some key points.
 
 #### Filtering, or sorting = death
 
-#### pivot tables, or summarizing if you don't have R
-
 #### data entry: organization and restrictions.
 
 #### exporting to human-readable: CSV workflow

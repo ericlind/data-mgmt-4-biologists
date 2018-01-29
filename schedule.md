@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Assignment Schedule
+title: Course Topic Schedule
 assignments: ['Introduction and Data Life Cycle',
 'Workflow with git and RStudio',
 'Data Collection and QC',
@@ -16,11 +16,6 @@ assignments: ['Introduction and Data Life Cycle',
 ---
 
 {% include assignments.html %}
-
-The above assignments are for this specific version of the course, but other
-assignments are available as well. You can see the full list of
-[assignments]({{ site.baseurl }}/assignments/), which may be useful if you're using this material
-outside of an organized course.
 
 <!-- Schedule Management
 - Update the `assignments:` list with `title:` from `assignments/` files. 

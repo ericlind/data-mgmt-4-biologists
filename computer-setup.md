@@ -3,10 +3,6 @@ layout: page
 title: Computer Setup
 ---
 
-### SQL
-
-Download and install [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/). Add the [SQLite Manager](https://addons.mozilla.org/en-US/firefox/addon/sqlite-manager/).
-
 ### R
 
 Download and install the [R base system](http://cran.rstudio.com/). I recommend you use the [R studio](http://www.rstudio.com/products/rstudio/download/) to work with the base system.
@@ -61,3 +57,20 @@ Git is probably already installed. If it is not already available on your
 machine you can try to install it via your distro's package manager. For
 Debian/Ubuntu run `sudo apt-get install git` and for Fedora run `sudo yum
 install git`.
+
+
+### SQL
+
+Download and install [MAMP](https://www.mamp.info/en/). 
+
+MAMP is an abbreviation for 
+* MacOS
+* Apache
+* MySQL 
+* PHP (or Perl or Python)
+
+which make up the components of a web server connected to a database.
+We will use the MAMP combination of open-source software to explore
+creating and managing relational databases. 
+
+*Note* MAMP is available for Windows operating systems, despite the first 'M'.
