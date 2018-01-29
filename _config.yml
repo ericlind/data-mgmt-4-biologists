@@ -11,14 +11,14 @@ permalink:        pretty
 # Setup
 title:            Data Management for Biologists
 description:      'Surveying the hidden parts of the data life cycle'
-url:              http://ericlind.github.io/data-mgmt-4-biologists
+url:              http://pages.github.umn.edu/elind/data-mgmt-4-biologists/
 baseurl:          /data-mgmt-4-biologists
 email:            elind@umn.edu
 feedbackurl:      
 author:
-  name:           'Ethan White'
-  url:            https://twitter.com/ethanwhite
+  name:           'Eric Lind'
+  url:            https://twitter.com/elindie
 
 github:
-  repo:           https://github.com/datacarpentry/semester-biology
+  repo:           https://pages.github.umn.edu/elind/data-mgmt-4-biologists/
   #               Be sure the 'Issues' feature is activated in 'Settings'
