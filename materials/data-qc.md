@@ -5,6 +5,10 @@ title: Scripting Data QC
 language: R
 ---
 
+#### The data for this lecture are as follows:
+[WMA Bird survey]({{ site.baseurl }}/data/wma_QAQC.csv)
+[American Ornithologist Union checklist]({{ site.baseurl }}/data/birds_aou.csv)
+
 # import data
 ```
 dat <- read.csv('data/raw/wma_QAQC.csv')
