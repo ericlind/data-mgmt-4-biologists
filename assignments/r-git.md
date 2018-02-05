@@ -1,9 +1,9 @@
 ---
 layout: page
 element: assignment
-title: Version Control
+title: Data Collection and QC
 language: R
-exercises: ['Set Up Git', 'First Solo Commit', 'Second Solo Commit', 'Commit Multiple Files', 'Pushing Changes', 'Pulling and Pushing', 'Create Project Repository']
+exercises: ['Set Up Git', 'First Solo Commit', 'Git with a Partner', 'Scripting Data QC']
 ---
 
 #### Learning Objectives
@@ -12,10 +12,8 @@ exercises: ['Set Up Git', 'First Solo Commit', 'Second Solo Commit', 'Commit Mul
 >
 > - use version control to keep track of changes to code
 > - collaborate with someone else via a remote repository
+> - create a script to find and flag data points to check
 
 {% include reading.html %}
-
-### How To
-The exercises in this assignment should be worked through along with the [Version Control lecture notes]({{ site.baseurl }}/materials/version-control-R). Start at the beginning of the lecture notes and do the exercises where they are linked to in the notes. 
 
 {% include assignment.html %}

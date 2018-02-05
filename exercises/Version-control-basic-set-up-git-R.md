@@ -5,35 +5,26 @@ title: Set Up Git
 language: R
 ---
 
-Let’s say that you’re working on analyzing fish scale size data one day. Unfortunately you weren't using version control and your cat jumped 
-all over your keyboard and managed to replace your analysis code with:
+The University of Minnesota hosts an [internal Github site](https://github.umn.edu). 
+This site allows both private (only you and those you choose can see) 
+and "public" (all those with a github.umn.edu account can see) repositories. 
 
-```
-asd;fljkzbvc;iobv;iojre,nmnmbveaq389320pr9c9cd
+To complete the following exercise, you must:
+* Have git installed for your operating system following the
+[setup instructions](http://www.datacarpentry.org/semester-biology/computer-setup/).
+* Create an account on github.umn.edu using your UMN login information.
 
-ds8
-a
-d8of8pp
-```
-before somehow hitting `Ctrl-s` and overwriting all of your hard word. 
 
-Determined to not let this happen again you've committed to using `git` for
-version control.
+Create a new repository at github.umn.edu:
 
-Install `Git` for your operating system following the
-[setup instructions](http://www.datacarpentry.org/semester-biology/computer-setup/). Then
-create a new repo at the Github organization for the class:
-
-1. Navigate to Github in a web browser and login.
+1. Navigate to [github.umn.edu](https://github.umn.edu) in a web browser and login.
 2. Click the `+` at the upper right corner of the page and choose `New repository`.
-3. Choose the class organization (e.g., `dcsemester`) as the `Owner` of the
-   repo.
-4. Fill in a `Repository name` that follows the form `FirstnameLastname`.
+4. Fill in a `Repository name` that follows the form `Lastname-ENT5920`.
 5. Select `Private`.
 6. Select `Initialize this repository with a README`.
 7. Click `Create Repository`.
 
-Next, set up a project for this assignment in RStudio with the following steps:
+Next, clone your new repository and set up a project in RStudio:
 
 1. File -> New Project -> Version Control -> Git
 2. Navigate to your new Git repo -> Click the `Clone or download` button ->
