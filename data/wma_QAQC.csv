@@ -1,0 +1,419 @@
+"id","WMA","trt","sample_date","common_name","records","status","habitat","genus","species","count"
+1,"Melbye WMA","Experimental","10-Jun-2016","Black-and-white Warbler","967","","coniferous forest","Mniotilta","varia",NA
+1,"Melbye WMA","Experimental","10-Jun-2016","Eurasian Collared-Dove","7","","fragmented","Streptopelia","decaocto",10
+1,"Melbye WMA","Experimental","10-Jun-2016","Willet","2","","wetland","Tringa","semipalmata",NA
+1,"Melbye WMA","Experimental","10-Jun-2016","Canada Warbler","447","sgcn","coniferous forest","Cardellina","canadensis",12
+1,"Melbye WMA","Experimental","10-Jun-2016","Cooper's Hawk","90","","deciduous forest","Accipiter","cooperii",1
+1,"Melbye WMA","Experimental","10-Jun-2016","Ring-necked Pheasant","813","","open upland","Phasianus","colchicus",9
+1,"Melbye WMA","Experimental","10-Jun-2016","Red-necked Grebe","130","sgcn","wetland","Podiceps","grisegena",6
+1,"Melbye WMA","Experimental","10-Jun-2016","Broad-winged Hawk","233","","mixed forest","Buteo","platypterus",19
+1,"Melbye WMA","Experimental","10-Jun-2016","Common Goldeneye","118","","wetland","Bucephala","clangula",7
+1,"Melbye WMA","Experimental","10-Jun-2016","Magnolia Warbler","619","","coniferous forest","Setophaga","magnolia",11
+1,"Melbye WMA","Experimental","10-Jun-2016","Northern Parula","524","","coniferous forest","Setophaga","americana",19
+1,"Melbye WMA","Experimental","10-Jun-2016","Franklin's Gull","104","SPC","wetland","Leucophaeus","pipixcan",6
+1,"Melbye WMA","Experimental","10-Jun-2016","Northern Hawk Owl","3","","coniferous forest","Surnia","ulula",10
+1,"Melbye WMA","Experimental","10-Jun-2016","Cedar Waxwing","928","","deciduous forest","Bombycilla","cedrorum",12
+1,"Melbye WMA","Experimental","10-Jun-2016","Bufflehead","2","","wetland","Bucephala","albeola",3
+1,"Melbye WMA","Experimental","10-Jun-2016","Vesper Sparrow","490","","open upland","Pooecetes","gramineus",4
+1,"Melbye WMA","Experimental","10-Jun-2016","American Three-toed Woodpecker","5","","coniferous forest","Picoides","dorsalis",4
+1,"Melbye WMA","Experimental","10-Jun-2016","Black-capped Chickadee","1502","","fragmented","Poecile","atricapillus",13
+1,"Melbye WMA","Experimental","10-Jun-2016","Warbling Vireo","744","","deciduous forest","Vireo","gilvus",4
+1,"Melbye WMA","Experimental","10-Jun-2016","Red Crossbill","33","","coniferous forest","Loxia","curvirostra",23
+1,"Melbye WMA","Experimental","10-Jun-2016","Nashville Warbler","2078","","coniferous forest","Oreothlypis","ruficapilla",11
+1,"Melbye WMA","Experimental","10-Jun-2016","Barn Swallow","889*","","open upland","Hirundo","rustica",13
+1,"Melbye WMA","Experimental","10-Jun-2016","American Robin","2466","","fragmented","Turdus","migratorius",12
+1,"Melbye WMA","Experimental","10-Jun-2016","Marsh Wren","893","sgcn","wetland","Cistothorus","palustris",12
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Wilson's Snipe","687","","wetland","Gallinago","delicata",3
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Common Yellowthroat","4616","","fragmented","Geothlypis","trichas",9
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Snowy Egret","2","","wetland","Egretta","thula",12
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","House Sparrow","134","","fragmented","Passer","domesticus",9
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Philadelphia Vireo","19","sgcn","mixed forest","Vireo","philadelphicus",8
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Sedge Wren","1983","sgcn","wetland","Cistothorus","platensis",6
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Ovenbird","3409","sgcn","deciduous forest","Seiurus","aurocapilla",11
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Gray Catbird","1430","","fragmented","Dumetella","carolinensis",14
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Brown-headed Cowbird","2142","","fragmented","Molothrus","ater",8
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","American Redstart","1522","","deciduous forest","Setophaga","ruticilla",9
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Wilson's Warbler","34","","coniferous forest","Cardellina","pusilla",16
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","American Black Duck","31","sgcn","wetland","Anas","rubripes",3
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Loggerhead Shrike","33","END","open upland","Lanius","ludovicianus",8
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Western Grebe","48","sgcn","wetland","Aechmophorus","occidentalis",6
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Wilson's Phalarope","69","THR","wetland","Phalaropus","tricolor",14
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Common Merganser","48","","wetland","Mergus","merganser",5
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Sharp-tailed Grouse","55","sgcn","open upland","Tympanuchus","phasianellus",12
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Northern Hawk Owl","3","","coniferous forest","Surnia","ulula",22
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Pied-billed Grebe","357","","wetland","Podilymbus","podiceps",15
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Baird's Sparrow","1","END","open upland","Ammodramus","bairdii",15
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Mountain Bluebird","1","","open upland","Sialia","currucoides",10
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Downy Woodpecker","699","","deciduous forest","Picoides","pubescens",1
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Barred Owl","73","","deciduous forest","Strix","varia",6
+3,"Pednor WMA","Control","10-Jun-2016","Cape May Warbler","155","sgcn","coniferous forest","Setophaga","tigrina",15
+3,"Pednor WMA","Control","10-Jun-2016","Rock Wren","1","","open upland","Salpinctes","obsoletus",10
+3,"Pednor WMA","Control","10-Jun-2016","Alder Flycatcher","1314","","fragmented","Empidonax","alnorum",6
+3,"Pednor WMA","Control","10-Jun-2016","Swainson's Thrush","362","","coniferous forest","Catharus","ustulatus",16
+3,"Pednor WMA","Control","10-Jun-2016","Vesper Sparrow","490","","open upland","Pooecetes","gramineus",8
+3,"Pednor WMA","Control","10-Jun-2016","Eastern Phoebe","300","","fragmented","Sayornis","phoebe",20
+4,"Pickerel WMA","Experimental","15-Jun-2016","American Bittern","353","sgcn","wetland","Botaurus","lentiginosus",10
+4,"Pickerel WMA","Experimental","15-Jun-2016","Henslow's Sparrow","80","END","open upland","Ammodramus","henslowii",11
+4,"Pickerel WMA","Experimental","15-Jun-2016","Bald Eagle","188","sgcn","wetland","Haliaeetus","leucocephalus",16
+4,"Pickerel WMA","Experimental","15-Jun-2016","Broad-winged Hawk","233","","mixed forest","Buteo","platypterus",6
+4,"Pickerel WMA","Experimental","15-Jun-2016","Rock Wren","1","","open upland","Salpinctes","obsoletus",23
+4,"Pickerel WMA","Experimental","15-Jun-2016","White-throated Sparrow","1805","sgcn","coniferous forest","Zonotrichia","albicollis",6
+4,"Pickerel WMA","Experimental","15-Jun-2016","Canada Goose","730","","wetland","Branta","canadensis",7
+4,"Pickerel WMA","Experimental","15-Jun-2016","Osprey","79","","wetland","Pandion","haliaetus",7
+4,"Pickerel WMA","Experimental","15-Jun-2016","Prothonotary Warbler","56","sgcn","deciduous forest","Protonotaria","citrea",3
+4,"Pickerel WMA","Experimental","15-Jun-2016","Common Gallinule","15","SPC","wetland","Gallinula","galeata",7
+4,"Pickerel WMA","Experimental","15-Jun-2016","Blackburnian Warbler","526","","coniferous forest","Setophaga","fusca",10
+4,"Pickerel WMA","Experimental","15-Jun-2016","Wood Duck","618","","wetland","Aix","sponsa",9
+4,"Pickerel WMA","Experimental","15-Jun-2016","Hooded Merganser","180","","wetland","Lophodytes","cucullatus",6
+4,"Pickerel WMA","Experimental","15-Jun-2016","Common Goldeneye","118","","wetland","Bucephala","clangula",11
+4,"Pickerel WMA","Experimental","15-Jun-2016","Orchard Oriole","320","","fragmented","Icterus","spurius",6
+4,"Pickerel WMA","Experimental","15-Jun-2016","Northern Bobwhite","2","","fragmented","Colinus","virginianus",7
+4,"Pickerel WMA","Experimental","15-Jun-2016","Barred Owl","73","","deciduous forest","Strix","varia",15
+4,"Pickerel WMA","Experimental","15-Jun-2016","Green Heron","188","","wetland","Butorides","virescens",18
+4,"Pickerel WMA","Experimental","15-Jun-2016","Evening Grosbeak","114","","coniferous forest","Coccothraustes","vespertinus",16
+4,"Pickerel WMA","Experimental","15-Jun-2016","Great Blue Heron","657","","wetland","Ardea","herodias",14
+4,"Pickerel WMA","Experimental","15-Jun-2016","Grasshopper Sparrow","529","sgcn","open upland","Ammodramus","savannarum",6
+4,"Pickerel WMA","Experimental","15-Jun-2016","Eastern Wood-Pewee","1932","sgcn","mixed forest","Contopus","virens",5
+4,"Pickerel WMA","Experimental","15-Jun-2016","American Coot","189","","wetland","Fulica","americana",11
+4,"Pickerel WMA","Experimental","15-Jun-2016","Downy Woodpecker","699","","deciduous forest","Picoides","pubescens",10
+4,"Pickerel WMA","Experimental","15-Jun-2016","Northern Rough-winged Swallow","197","sgcn","fragmented","Stelgidopteryx","serripennis",17
+5,"Spring Creek WMA","Control","10-Jun-2016","Brown Creeper","250","","mixed forest","Certhia","americana",17
+5,"Spring Creek WMA","Control","10-Jun-2016","Boreal Chickadee","74","sgcn","coniferous forest","Poecile","hudsonicus",12
+5,"Spring Creek WMA","Control","10-Jun-2016","Baltimore Oriole","1066","","deciduous forest","Icterus","galbula",7
+5,"Spring Creek WMA","Control","10-Jun-2016","Northern Waterthrush","328","","coniferous forest","Parkesia","noveboracensis",14
+5,"Spring Creek WMA","Control","10-Jun-2016","Red-bellied Woodpecker","494","","deciduous forest","Melanerpes","carolinus",12
+5,"Spring Creek WMA","Control","10-Jun-2016","Blue-winged Teal","470","","wetland","Anas","discors",7
+5,"Spring Creek WMA","Control","10-Jun-2016","Connecticut Warbler","248","sgcn","coniferous forest","Oporornis","agilis",2
+5,"Spring Creek WMA","Control","10-Jun-2016","American White Pelican","297","SPC","wetland","Pelecanus","erythrorhynchos",6
+5,"Spring Creek WMA","Control","10-Jun-2016","Least Bittern","68","sgcn","wetland","Ixobrychus","exilis",10
+5,"Spring Creek WMA","Control","10-Jun-2016","Scarlet Tanager","1149","","deciduous forest","Piranga","olivacea",13
+5,"Spring Creek WMA","Control","10-Jun-2016","Western Grebe","48","sgcn","wetland","Aechmophorus","occidentalis",2
+5,"Spring Creek WMA","Control","10-Jun-2016","Lincoln's Sparrow","316","","coniferous forest","Melospiza","lincolnii",16
+5,"Spring Creek WMA","Control","10-Jun-2016","Common Yellowthroat","4616","","fragmented","Geothlypis","trichas",20
+5,"Spring Creek WMA","Control","10-Jun-2016","Field Sparrow","570","sgcn","open upland","Spizella","pusilla",15
+5,"Spring Creek WMA","Control","10-Jun-2016","Rock Wren","1","","open upland","Salpinctes","obsoletus",3
+5,"Spring Creek WMA","Control","10-Jun-2016","Red-breasted Merganser","1","","wetland","Mergus","serrator",11
+5,"Spring Creek WMA","Control","10-Jun-2016","Orchard Oriole","320","","fragmented","Icterus","spurius",6
+6,"Shelly Island WMA","Control","2-Jun-2016","Nelson's Sparrow","115","SPC","wetland","Ammodramus","nelsoni",15
+6,"Shelly Island WMA","Control","2-Jun-2016","Blue-winged Teal","470","","wetland","Anas","discors",11
+6,"Shelly Island WMA","Control","2-Jun-2016","Osprey","79","","wetland","Pandion","haliaetus",9
+6,"Shelly Island WMA","Control","2-Jun-2016","Great Blue Heron","657","","wetland","Ardea","herodias",6
+6,"Shelly Island WMA","Control","2-Jun-2016","House Sparrow","134","","fragmented","Passer","domesticus",NA
+6,"Shelly Island WMA","Control","2-Jun-2016","Song Sparrow","3228","","fragmented","Melospiza","melodia",15
+6,"Shelly Island WMA","Control","2-Jun-2016","Western Wood-Pewee","1","","mixed forest","Contopus","sordidulus",12
+6,"Shelly Island WMA","Control","2-Jun-2016","Willow Flycatcher","438","sgcn","fragmented","Empidonax","traillii",11
+6,"Shelly Island WMA","Control","2-Jun-2016","Red-headed Woodpecker","320","sgcn","fragmented","Melanerpes","erythrocephalus",8
+6,"Shelly Island WMA","Control","2-Jun-2016","Common Grackle","1161","","fragmented","Quiscalus","quiscula",9
+6,"Shelly Island WMA","Control","2-Jun-2016","Alder Flycatcher","1314","","fragmented","Empidonax","alnorum",9
+6,"Shelly Island WMA","Control","2-Jun-2016","Pine Siskin","53","","coniferous forest","Spinus","pinus",5
+6,"Shelly Island WMA","Control","2-Jun-2016","Yellow-bellied Flycatcher","635","","coniferous forest","Empidonax","flaviventris",7
+6,"Shelly Island WMA","Control","2-Jun-2016","Red-necked Grebe","130","sgcn","wetland","Podiceps","grisegena",13
+6,"Shelly Island WMA","Control","2-Jun-2016","Sedge Wren","1983","sgcn","wetland","Cistothorus","platensis",13
+6,"Shelly Island WMA","Control","2-Jun-2016","Eastern Whip-poor-will","67","sgcn","mixed forest","Antrostomus","vociferus",6
+6,"Shelly Island WMA","Control","2-Jun-2016","Pileated Woodpecker","772","","mixed forest","Dryocopus","pileatus",8
+6,"Shelly Island WMA","Control","2-Jun-2016","Green-winged Teal","78","","wetland","Anas","crecca",13
+6,"Shelly Island WMA","Control","2-Jun-2016","Red-tailed Hawk","506","","fragmented","Buteo","jamaicensis",15
+6,"Shelly Island WMA","Control","2-Jun-2016","Red-breasted Merganser","1","","wetland","Mergus","serrator",4
+6,"Shelly Island WMA","Control","2-Jun-2016","Gray Partridge","28","","open upland","Perdix","perdix",7
+6,"Shelly Island WMA","Control","2-Jun-2016","Northern Mockingbird","1","","fragmented","Mimus","polyglottos",10
+1,"Melbye WMA","Experimental","10-Jun-2016","White-breasted Nuthatch","961","","deciduous forest","Sitta","carolinensis",11
+1,"Melbye WMA","Experimental","10-Jun-2016","Wood Thrush","422","sgcn","deciduous forest","Hylocichla","mustelina",14
+1,"Melbye WMA","Experimental","10-Jun-2016","Horned Grebe","3","END","wetland","Podiceps","auritus",19
+1,"Melbye WMA","Experimental","10-Jun-2016","Sprague's Pipit","3","END","open upland","Anthus","spragueii",5
+1,"Melbye WMA","Experimental","10-Jun-2016","Scarlet Tanager","1149","","deciduous forest","Piranga","olivacea",5
+1,"Melbye WMA","Experimental","10-Jun-2016","Song Sparrow","3228","","fragmented","Melospiza","melodia",9
+1,"Melbye WMA","Experimental","10-Jun-2016","Brown Creeper","250","","mixed forest","Certhia","americana",8
+1,"Melbye WMA","Experimental","10-Jun-2016","Magnolia Warbler","619","","coniferous forest","Setophaga","magnolia",9
+1,"Melbye WMA","Experimental","10-Jun-2016","Black-billed Cuckoo","514","sgcn","fragmented","Coccyzus","erythropthalmus",7
+1,"Melbye WMA","Experimental","10-Jun-2016","House Wren","1600","","deciduous forest","Troglodytes","aedon",8
+1,"Melbye WMA","Experimental","10-Jun-2016","Red-bellied Woodpecker","494","","deciduous forest","Melanerpes","carolinus",130
+1,"Melbye WMA","Experimental","10-Jun-2016","Purple Martin","101","SPC","fragmented","Progne","subis",12
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Tree Swallow","1242","","fragmented","Tachycineta","bicolor",9
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Yellow-breasted Chat","1","","open upland","Icteria","virens",2
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Chestnut-collared Longspur","3","END","open upland","Calcarius","ornatus",11
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Common Yellowthroat","4616","","fragmented","Geothlypis","trichas",10
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Black-and-white Warbler","967","","coniferous forest","Mniotilta","varia",8
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Little Blue Heron","1","","wetland","Egretta","caerulea",10
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Least Bittern","68","sgcn","wetland","Ixobrychus","exilis",10
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Brown Thrasher","416","sgcn","fragmented","Toxostoma","rufum",15
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Northern Cardinal","605","","deciduous forest","Cardinalis","cardinalis",5
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","American Coot","189","","wetland","Fulica","americana",15
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Wood Thrush","422","sgcn","deciduous forest","Hylocichla","mustelina",5
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Great-tailed Grackle","22","","wetland","Quiscalus","mexicanus",11
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Sharp-shinned Hawk","20","","coniferous forest","Accipiter","striatus",12
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Le Conte's Sparrow","464","sgcn","wetland","Ammodramus","leconteii",15
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Herring Gull","66","","wetland","Larus","argentatus",8
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Veery","2277","sgcn","mixed forest","Catharus","fuscescens",3
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Cape May Warbler","155","sgcn","coniferous forest","Setophaga","tigrina",7
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Ring-billed Gull","148","","wetland","Larus","delawarensis",9
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Pied-billed Grebe","357","","wetland","Podilymbus","podiceps",19
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Eared Grebe","20","sgcn","wetland","Podiceps","nigricollis",8
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Swainson's Hawk","86","sgcn","open upland","Buteo","swainsoni",14
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Pileated Woodpecker","772","","mixed forest","Dryocopus","pileatus",4
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Chestnut-sided Warbler","1290","","deciduous forest","Setophaga","pensylvanica",9
+3,"Pednor WMA","Control","10-Jun-2016","Northern Mockingbird","1","","fragmented","Mimus","polyglottos",17
+3,"Pednor WMA","Control","10-Jun-2016","Lincoln's Sparrow","316","","coniferous forest","Melospiza","lincolnii",13
+3,"Pednor WMA","Control","10-Jun-2016","Long-eared Owl","1","","mixed forest","Asio","otus",6
+3,"Pednor WMA","Control","10-Jun-2016","Pied-billed Grebe","357","","wetland","Podilymbus","podiceps",9
+3,"Pednor WMA","Control","10-Jun-2016","Great-tailed Grackle","22","","wetland","Quiscalus","mexicanus",11
+3,"Pednor WMA","Control","10-Jun-2016","Western Meadowlark","931","","open upland","Sturnella","neglecta",1
+3,"Pednor WMA","Control","10-Jun-2016","Brown Creeper","250","","mixed forest","Certhia","americana",14
+3,"Pednor WMA","Control","10-Jun-2016","Great Blue Heron","657","","wetland","Ardea","herodias",19
+3,"Pednor WMA","Control","10-Jun-2016","Common Loon","655","sgcn","wetland","Gavia","immer",8
+3,"Pednor WMA","Control","10-Jun-2016","Least Flycatcher","1627","sgcn","mixed forest","Empidonax","minimus",16
+3,"Pednor WMA","Control","10-Jun-2016","Common Tern","15","THR","wetland","Sterna","hirundo",11
+3,"Pednor WMA","Control","10-Jun-2016","Black-crowned Night-Heron","78","sgcn","wetland","Nycticorax","nycticorax",14
+3,"Pednor WMA","Control","10-Jun-2016","Grasshopper Sparrow","529","sgcn","open upland","Ammodramus","savannarum",11
+3,"Pednor WMA","Control","10-Jun-2016","Golden-winged Warbler","547","sgcn","coniferous forest","Vermivora","chrysoptera",6
+3,"Pednor WMA","Control","10-Jun-2016","Little Blue Heron","1","","wetland","Egretta","caerulea",17
+3,"Pednor WMA","Control","10-Jun-2016","Common Merganser","48","","wetland","Mergus","merganser",6
+3,"Pednor WMA","Control","10-Jun-2016","Cliff Swallow","382","","fragmented","Petrochelidon","pyrrhonota",12
+3,"Pednor WMA","Control","10-Jun-2016","Bay-breasted Warbler","16","sgcn","coniferous forest","Setophaga","castanea",3
+3,"Pednor WMA","Control","10-Jun-2016","Pileated Woodpecker","772","","mixed forest","Dryocopus","pileatus",5
+3,"Pednor WMA","Control","10-Jun-2016","Canada Goose","730","","wetland","Branta","canadensis",5
+3,"Pednor WMA","Control","10-Jun-2016","Horned Lark","178","","open upland","Eremophila","alpestris",8
+3,"Pednor WMA","Control","10-Jun-2016","Chestnut-sided Warbler","1290","","deciduous forest","Setophaga","pensylvanica",4
+3,"Pednor WMA","Control","10-Jun-2016","Yellow-headed Blackbird","861","sgcn","wetland","Xanthocephalus","xanthocephalus",2
+3,"Pednor WMA","Control","10-Jun-2016","Eared Grebe","20","sgcn","wetland","Podiceps","nigricollis",14
+3,"Pednor WMA","Control","10-Jun-2016","Mallard","1174","","wetland","Anas","platyrhynchos",25
+4,"Pickerel WMA","Experimental","15-Jun-2016","Western Wood-Pewee","1","","mixed forest","Contopus","sordidulus",5
+4,"Pickerel WMA","Experimental","15-Jun-2016","Wilson's Snipe","687","","wetland","Gallinago","delicata",10
+4,"Pickerel WMA","Experimental","15-Jun-2016","Green-winged Teal","78","","wetland","Anas","crecca",5
+4,"Pickerel WMA","Experimental","15-Jun-2016","Short-eared Owl","20","SPC","wetland","Asio","flammeus",10
+4,"Pickerel WMA","Experimental","15-Jun-2016","Evening Grosbeak","114","","coniferous forest","Coccothraustes","vespertinus",12
+4,"Pickerel WMA","Experimental","15-Jun-2016","Black-billed Magpie","195","","fragmented","Pica","hudsonia",23
+4,"Pickerel WMA","Experimental","15-Jun-2016","Yellow Warbler","1979","","fragmented","Setophaga","petechia",11
+4,"Pickerel WMA","Experimental","15-Jun-2016","Nashville Warbler","2078","","coniferous forest","Oreothlypis","ruficapilla",2
+4,"Pickerel WMA","Experimental","15-Jun-2016","American Bittern","353","sgcn","wetland","Botaurus","lentiginosus",13
+4,"Pickerel WMA","Experimental","15-Jun-2016","Solitary Sandpiper","1","","coniferous forest","Tringa","solitaria",7
+4,"Pickerel WMA","Experimental","15-Jun-2016","Chestnut-collared Longspur","3","END","open upland","Calcarius","ornatus",11
+4,"Pickerel WMA","Experimental","15-Jun-2016","Summer Tanager","2","","deciduous forest","Piranga","rubra",11
+4,"Pickerel WMA","Experimental","15-Jun-2016","Black-billed Cuckoo","514","sgcn","fragmented","Coccyzus","erythropthalmus",11
+4,"Pickerel WMA","Experimental","15-Jun-2016","Red-headed Woodpecker","320","sgcn","fragmented","Melanerpes","erythrocephalus",10
+4,"Pickerel WMA","Experimental","15-Jun-2016","Tree Swallow","1242","","fragmented","Tachycineta","bicolor",12
+4,"Pickerel WMA","Experimental","15-Jun-2016","Western Kingbird","112","","open upland","Tyrannus","verticalis",9
+4,"Pickerel WMA","Experimental","15-Jun-2016","Tufted Titmouse","16","","deciduous forest","Baeolophus","bicolor",15
+4,"Pickerel WMA","Experimental","15-Jun-2016","Common Loon","655","sgcn","wetland","Gavia","immer",0
+4,"Pickerel WMA","Experimental","15-Jun-2016","Swainson's Thrush","362","","coniferous forest","Catharus","ustulatus",15
+4,"Pickerel WMA","Experimental","15-Jun-2016","Wood Duck","618","","wetland","Aix","sponsa",12
+4,"Pickerel WMA","Experimental","15-Jun-2016","Northern Goshawk","13","SPC","coniferous forest","Accipiter","gentilis",170
+4,"Pickerel WMA","Experimental","15-Jun-2016","Great Blue Heron","657","","wetland","Ardea","herodias",5
+4,"Pickerel WMA","Experimental","15-Jun-2016","Barred Owl","73","","deciduous forest","Strix","varia",4
+4,"Pickerel WMA","Experimental","15-Jun-2016","Long-eared Owl","1","","mixed forest","Asio","otus",13
+5,"Spring Creek WMA","Control","10-Jun-2016","Sora","408","","wetland","Porzana","carolina",18
+5,"Spring Creek WMA","Control","10-Jun-2016","Summer Tanager","2","","deciduous forest","Piranga","rubra",3
+5,"Spring Creek WMA","Control","10-Jun-2016","Purple Finch","438","","coniferous forest","Haemorhous","purpureus",8
+5,"Spring Creek WMA","Control","10-Jun-2016","Marsh Wren","893","sgcn","wetland","Cistothorus","palustris",5
+5,"Spring Creek WMA","Control","10-Jun-2016","Bay-breasted Warbler","16","sgcn","coniferous forest","Setophaga","castanea",NA
+5,"Spring Creek WMA","Control","10-Jun-2016","Purple Martin","101","SPC","fragmented","Progne","subis",13
+5,"Spring Creek WMA","Control","10-Jun-2016","Tufted Titmouse","16","","deciduous forest","Baeolophus","bicolor",18
+5,"Spring Creek WMA","Control","10-Jun-2016","Solitary Sandpiper","1","","coniferous forest","Tringa","solitaria",8
+5,"Spring Creek WMA","Control","10-Jun-2016","Dark-eyed Junco","100","","coniferous forest","Junco","hyemalis",17
+5,"Spring Creek WMA","Control","10-Jun-2016","Bobolink","1653","sgcn","open upland","Dolichonyx","oryzivorus",9
+5,"Spring Creek WMA","Control","10-Jun-2016","Cattle Egret","9","","open upland","Bubulcus","ibis",8
+5,"Spring Creek WMA","Control","10-Jun-2016","Western Grebe","48","sgcn","wetland","Aechmophorus","occidentalis",7
+5,"Spring Creek WMA","Control","10-Jun-2016","Black-capped Chickadee","1502","","fragmented","Poecile","atricapillus",9
+6,"Shelly Island WMA","Control","2-Jun-2016","Chestnut-sided Warbler","1290","","deciduous forest","Setophaga","pensylvanica",10
+6,"Shelly Island WMA","Control","2-Jun-2016","Willow Flycatcher","438","sgcn","fragmented","Empidonax","traillii",20
+6,"Shelly Island WMA","Control","2-Jun-2016","Common Gallinule","15","SPC","wetland","Gallinula","galeata",6
+6,"Shelly Island WMA","Control","2-Jun-2016","Downy Woodpecker","699","","deciduous forest","Picoides","pubescens",14
+6,"Shelly Island WMA","Control","2-Jun-2016","White-eyed Vireo","1","","fragmented","Vireo","griseus",12
+6,"Shelly Island WMA","Control","2-Jun-2016","Brown Creeper","250","","mixed forest","Certhia","americana",10
+6,"Shelly Island WMA","Control","2-Jun-2016","Pied-billed Grebe","357","","wetland","Podilymbus","podiceps",8
+6,"Shelly Island WMA","Control","2-Jun-2016","Swainson's Thrush","362","","coniferous forest","Catharus","ustulatus",13
+1,"Melbye WMA","Experimental","10-Jun-2016","Red-bellied Woodpecker","494","","deciduous forest","Melanerpes","carolinus",5
+1,"Melbye WMA","Experimental","10-Jun-2016","Cerulean Warbler","138","SPC","deciduous forest","Setophaga","cerulea",8
+1,"Melbye WMA","Experimental","10-Jun-2016","Hooded Merganser","180","","wetland","Lophodytes","cucullatus",6
+1,"Melbye WMA","Experimental","10-Jun-2016","Eastern Kingbird","1086","","open upland","Tyrannus","tyrannus",3
+1,"Melbye WMA","Experimental","10-Jun-2016","Ruby-throated Hummingbird","276","","deciduous forest","Archilochus","colubris",11
+1,"Melbye WMA","Experimental","10-Jun-2016","Cattle Egret","9","","open upland","Bubulcus","ibis",7
+1,"Melbye WMA","Experimental","10-Jun-2016","Black-billed Cuckoo","514","sgcn","fragmented","Coccyzus","erythropthalmus",8
+1,"Melbye WMA","Experimental","10-Jun-2016","Canvasback","46","","wetland","Aythya","valisineria",12
+1,"Melbye WMA","Experimental","10-Jun-2016","Black-billed Magpie","195","","fragmented","Pica","hudsonia",5
+1,"Melbye WMA","Experimental","10-Jun-2016","Blue Jay","2493","","mixed forest","Cyanocitta","cristata",6
+1,"Melbye WMA","Experimental","10-Jun-2016","Bay-breasted Warbler","16","sgcn","coniferous forest","Setophaga","castanea",7
+1,"Melbye WMA","Experimental","10-Jun-2016","Blackburnian Warbler","526","","coniferous forest","Setophaga","fusca",18
+1,"Melbye WMA","Experimental","10-Jun-2016","American Black Duck","31","sgcn","wetland","Anas","rubripes",11
+1,"Melbye WMA","Experimental","10-Jun-2016","Osprey","79","","wetland","Pandion","haliaetus",14
+1,"Melbye WMA","Experimental","10-Jun-2016","Swainson's Thrush","362","","coniferous forest","Catharus","ustulatus",14
+1,"Melbye WMA","Experimental","10-Jun-2016","Eared Grebe","20","sgcn","wetland","Podiceps","nigricollis",6
+1,"Melbye WMA","Experimental","10-Jun-2016","Little Blue Heron","1","","wetland","Egretta","caerulea",12
+1,"Melbye WMA","Experimental","10-Jun-2016","Short-eared Owl","20","SPC","wetland","Asio","flammeus",8
+1,"Melbye WMA","Experimental","10-Jun-2016","Eastern Screech-Owl","2","","deciduous forest","Megascops","asio",2
+1,"Melbye WMA","Experimental","10-Jun-2016","Northern Rough-winged Swallow","197","sgcn","fragmented","Stelgidopteryx","serripennis",3
+1,"Melbye WMA","Experimental","10-Jun-2016","White-throated Sparrow","1805","sgcn","coniferous forest","Zonotrichia","albicollis",6
+1,"Melbye WMA","Experimental","10-Jun-2016","Brewer's Blackbird","284","","open upland","Euphagus","cyanocephalus",19
+1,"Melbye WMA","Experimental","10-Jun-2016","Mourning Warbler","744","","deciduous forest","Geothlypis","philadelphia",10
+1,"Melbye WMA","Experimental","10-Jun-2016","Western Grebe","48","sgcn","wetland","Aechmophorus","occidentalis",5
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Lesser Scaup","13","sgcn","wetland","Aythya","affinis",21
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Gray Jay","369","","coniferous forest","Perisoreus","canadensis",18
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","American Kestrel","279","","open upland","Falco","sparverius",1
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Common Raven","555","","mixed forest","Corvus","corax",10
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Least Flycatcher","1627","sgcn","mixed forest","Empidonax","minimus",14
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","American Bittern","353","sgcn","wetland","Botaurus","lentiginosus",6
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Barred Owl","73","","deciduous forest","Strix","varia",13
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Trumpeter Swan","208","SPC","wetland","Cygnus","buccinator",4
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Red-eyed Vireo","4253","","mixed forest","Vireo","olivaceus",21
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Golden-crowned Kinglet","350","","coniferous forest","Regulus","satrapa",6
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Spruce Grouse","17","sgcn","coniferous forest","Falcipennis","canadensis",16
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Upland Sandpiper","545","sgcn","open upland","Bartramia","longicauda",16
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Eastern Towhee","280","","mixed forest","Pipilo","erythrophthalmus",6
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Great-tailed Grackle","22","","wetland","Quiscalus","mexicanus",10
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Blue-winged Teal","470","","wetland","Anas","discors",5
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Alder Flycatcher","1314","","fragmented","Empidonax","alnorum",8
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Golden-winged Warbler","547","sgcn","coniferous forest","Vermivora","chrysoptera",19
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Scarlet Tanager","1149","","deciduous forest","Piranga","olivacea",19
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Indigo Bunting","913","","deciduous forest","Passerina","cyanea",2
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Rock Wren","1","","open upland","Salpinctes","obsoletus",6
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Brown Thrasher","416","sgcn","fragmented","Toxostoma","rufum",22
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","American Black Duck","31","sgcn","wetland","Anas","rubripes",15
+3,"Pednor WMA","Control","10-Jun-2016","Northern Pintail","32","sgcn","wetland","Anas","acuta",7
+3,"Pednor WMA","Control","10-Jun-2016","Lesser Scaup","13","sgcn","wetland","Aythya","affinis",25
+3,"Pednor WMA","Control","10-Jun-2016","Boreal Owl","1","SPC","coniferous forest","Aegolius","funereus",5
+3,"Pednor WMA","Control","10-Jun-2016","Scarlet Tanager","1149","","deciduous forest","Piranga","olivacea",16
+3,"Pednor WMA","Control","10-Jun-2016","Barred Owl","73","","deciduous forest","Strix","varia",12
+3,"Pednor WMA","Control","10-Jun-2016","Canvasback","46","","wetland","Aythya","valisineria",8
+3,"Pednor WMA","Control","10-Jun-2016","Yellow-breasted Chat","1","","open upland","Icteria","virens",13
+3,"Pednor WMA","Control","10-Jun-2016","Dickcissel","575","sgcn","open upland","Spiza","americana",7
+3,"Pednor WMA","Control","10-Jun-2016","Turkey Vulture","214","","fragmented","Cathartes","aura",10
+3,"Pednor WMA","Control","10-Jun-2016","Great Gray Owl","15","","coniferous forest","Strix","nebulosa",12
+3,"Pednor WMA","Control","10-Jun-2016","Blue-gray Gnatcatcher","362","","deciduous forest","Polioptila","caerulea",0
+3,"Pednor WMA","Control","10-Jun-2016","Bay-breasted Warbler","16","sgcn","coniferous forest","Setophaga","castanea",6
+3,"Pednor WMA","Control","10-Jun-2016","Summer Tanager","2","","deciduous forest","Piranga","rubra",10
+3,"Pednor WMA","Control","10-Jun-2016","Black-backed Woodpecker","139","sgcn","coniferous forest","Picoides","arcticus",6
+3,"Pednor WMA","Control","10-Jun-2016","Ring-necked Duck","290","","wetland","Aythya","collaris",6
+3,"Pednor WMA","Control","10-Jun-2016","Yellow-throated Vireo","924","","deciduous forest","Vireo","flavifrons",10
+3,"Pednor WMA","Control","10-Jun-2016","Black-billed Cuckoo","514","sgcn","fragmented","Coccyzus","erythropthalmus",8
+3,"Pednor WMA","Control","10-Jun-2016","Great Horned Owl","73","","fragmented","Bubo","virginianus",12
+3,"Pednor WMA","Control","10-Jun-2016","Merlin","49","","coniferous forest","Falco","columbarius",8
+3,"Pednor WMA","Control","10-Jun-2016","Blackburnian Warbler","526","","coniferous forest","Setophaga","fusca",18
+3,"Pednor WMA","Control","10-Jun-2016","Spruce Grouse","17","sgcn","coniferous forest","Falcipennis","canadensis",16
+3,"Pednor WMA","Control","10-Jun-2016","Cerulean Warbler","138","SPC","deciduous forest","Setophaga","cerulea",17
+4,"Pickerel WMA","Experimental","15-Jun-2016","Ring-necked Duck","290","","wetland","Aythya","collaris",9
+4,"Pickerel WMA","Experimental","15-Jun-2016","Canada Goose","730","","wetland","Branta","canadensis",10
+4,"Pickerel WMA","Experimental","15-Jun-2016","Nashville Warbler","2078","","coniferous forest","Oreothlypis","ruficapilla",7
+4,"Pickerel WMA","Experimental","15-Jun-2016","Cooper's Hawk","90","","deciduous forest","Accipiter","cooperii",12
+4,"Pickerel WMA","Experimental","15-Jun-2016","Western Wood-Pewee","1","","mixed forest","Contopus","sordidulus",11
+4,"Pickerel WMA","Experimental","15-Jun-2016","American Goldfinch","2303","","fragmented","Spinus","tristis",23
+4,"Pickerel WMA","Experimental","15-Jun-2016","Wood Duck","618","","wetland","Aix","sponsa",8
+4,"Pickerel WMA","Experimental","15-Jun-2016","Black-capped Chickadee","1502","","fragmented","Poecile","atricapillus",15
+5,"Spring Creek WMA","Control","10-Jun-2016","Yellow-headed Blackbird","861","sgcn","wetland","Xanthocephalus","xanthocephalus",6
+5,"Spring Creek WMA","Control","10-Jun-2016","Common Raven","555","","mixed forest","Corvus","corax",5
+5,"Spring Creek WMA","Control","10-Jun-2016","Clark's Grebe","1","","wetland","Aechmophorus","clarkii",10
+5,"Spring Creek WMA","Control","10-Jun-2016","American Crow","2599","","fragmented","Corvus","brachyrhynchos",7
+5,"Spring Creek WMA","Control","10-Jun-2016","Bell's Vireo","12","SPC","fragmented","Vireo","bellii",2
+6,"Shelly Island WMA","Control","2-Jun-2016","Connecticut Warbler","248","sgcn","coniferous forest","Oporornis","agilis",13
+6,"Shelly Island WMA","Control","2-Jun-2016","Sandhill Crane","633","sgcn","wetland","Grus","canadensis",8
+6,"Shelly Island WMA","Control","2-Jun-2016","Eastern Kingbird","1086","","open upland","Tyrannus","tyrannus",14
+6,"Shelly Island WMA","Control","2-Jun-2016","Philadelphia Vireo","19","sgcn","mixed forest","Vireo","philadelphicus",17
+6,"Shelly Island WMA","Control","2-Jun-2016","Green-winged Teal","78","","wetland","Anas","crecca",11
+6,"Shelly Island WMA","Control","2-Jun-2016","Eastern Screech-Owl","2","","deciduous forest","Megascops","asio",6
+6,"Shelly Island WMA","Control","2-Jun-2016","Song Sparrow","3228","","fragmented","Melospiza","melodia",13
+6,"Shelly Island WMA","Control","2-Jun-2016","American Coot","189","","wetland","Fulica","americana",14
+6,"Shelly Island WMA","Control","2-Jun-2016","American Kestrel","279","","open upland","Falco","sparverius",8
+6,"Shelly Island WMA","Control","2-Jun-2016","Baltimore Oriole","1066","","deciduous forest","Icterus","galbula",16
+6,"Shelly Island WMA","Control","2-Jun-2016","Red-shouldered Hawk","334","SPC","deciduous forest","Buteo","lineatus",9
+6,"Shelly Island WMA","Control","2-Jun-2016","Yellow-rumped Warbler","650","","coniferous forest","Setophaga","coronata",10
+6,"Shelly Island WMA","Control","2-Jun-2016","Gray Catbird","1430","","fragmented","Dumetella","carolinensis",12
+6,"Shelly Island WMA","Control","2-Jun-2016","Least Bittern","68","sgcn","wetland","Ixobrychus","exilis",17
+1,"Melbye WMA","Experimental","10-Jun-2016","Northern Waterthrush","328","","coniferous forest","Parkesia","noveboracensis",8
+1,"Melbye WMA","Experimental","10-Jun-2016","Yellow-crowned Night-Heron","1","","wetland","Nyctanassa","violacea",19
+1,"Melbye WMA","Experimental","10-Jun-2016","Scarlet Tanager","1149","","deciduous forest","Piranga","olivacea",19
+1,"Melbye WMA","Experimental","10-Jun-2016","White-throated Sparrow","1805","sgcn","coniferous forest","Zonotrichia","albicollis",7
+1,"Melbye WMA","Experimental","10-Jun-2016","Turkey Vulture","214","","fragmented","Cathartes","aura",10
+1,"Melbye WMA","Experimental","10-Jun-2016","Red-winged Blackbird","3426","","fragmented","Agelaius","phoeniceus",16
+1,"Melbye WMA","Experimental","10-Jun-2016","Green-winged Teal","78","","wetland","Anas","crecca",9
+1,"Melbye WMA","Experimental","10-Jun-2016","Northern Saw-whet Owl","16","","coniferous forest","Aegolius","acadicus",6
+1,"Melbye WMA","Experimental","10-Jun-2016","Northern Parula","524","","coniferous forest","Setophaga","americana",16
+1,"Melbye WMA","Experimental","10-Jun-2016","American Kestrel","279","","open upland","Falco","sparverius",7
+1,"Melbye WMA","Experimental","10-Jun-2016","American Bittern","353","sgcn","wetland","Botaurus","lentiginosus",14
+1,"Melbye WMA","Experimental","10-Jun-2016","Virginia Rail","145","sgcn","wetland","Rallus","limicola",8
+1,"Melbye WMA","Experimental","10-Jun-2016","Clark's Grebe","1","","wetland","Aechmophorus","clarkii",10
+1,"Melbye WMA","Experimental","10-Jun-2016","Rock Wren","1","","open upland","Salpinctes","obsoletus",3
+1,"Melbye WMA","Experimental","10-Jun-2016","White-eyed Vireo","1","","fragmented","Vireo","griseus",10
+1,"Melbye WMA","Experimental","10-Jun-2016","European Starling","396","","fragmented","Sturnus","vulgaris",9
+1,"Melbye WMA","Experimental","10-Jun-2016","Black-throated Green Warbler","881","","coniferous forest","Setophaga","virens",13
+1,"Melbye WMA","Experimental","10-Jun-2016","Rose-breasted Grosbeak","1849","sgcn","deciduous forest","Pheucticus","ludovicianus",21
+1,"Melbye WMA","Experimental","10-Jun-2016","Blue-winged Teal","470","","wetland","Anas","discors",5
+1,"Melbye WMA","Experimental","10-Jun-2016","Ring-billed Gull","148","","wetland","Larus","delawarensis",18
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Swamp Sparrow","2249","sgcn","wetland","Melospiza","georgiana",2
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Lark Bunting","4","","open upland","Calamospiza","melanocorys",20
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Rose-breasted Grosbeak","1849","sgcn","deciduous forest","Pheucticus","ludovicianus",13
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","White-eyed Vireo","1","","fragmented","Vireo","griseus",6
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Brown Creeper","250","","mixed forest","Certhia","americana",18
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Western Wood-Pewee","1","","mixed forest","Contopus","sordidulus",12
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Pileated Woodpecker","772","","mixed forest","Dryocopus","pileatus",13
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Bank Swallow","277","","open upland","Riparia","riparia",8
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Herring Gull","66","","wetland","Larus","argentatus",9
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Louisiana Waterthrush","83","SPC","deciduous forest","Parkesia","motacilla",19
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Red-breasted Merganser","1","","wetland","Mergus","serrator",8
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Purple Finch","438","","coniferous forest","Haemorhous","purpureus",16
+2,"Ogema Springs WMA","Experimental","2-Jun-2016","Blue Grosbeak","69","","framented","Passerina","caerulea",12
+3,"Pednor WMA","Control","10-Jun-2016","Lincoln's Sparrow","316","","coniferous forest","Melospiza","lincolnii",9
+3,"Pednor WMA","Control","10-Jun-2016","Eastern Kingbird","1086","","open upland","Tyrannus","tyrannus",6
+3,"Pednor WMA","Control","10-Jun-2016","Brown-headed Cowbird","2142","","fragmented","Molothrus","ater",3
+3,"Pednor WMA","Control","10-Jun-2016","Black-throated Green Warbler","881","","coniferous forest","Setophaga","virens",3
+3,"Pednor WMA","Control","10-Jun-2016","Wood Duck","618","","wetland","Aix","sponsa",9
+3,"Pednor WMA","Control","10-Jun-2016","White-eyed Vireo","1","","fragmented","Vireo","griseus",9
+3,"Pednor WMA","Control","10-Jun-2016","Barn Swallow","889","","open upland","Hirundo","rustica",12
+3,"Pednor WMA","Control","10-Jun-2016","Evening Grosbeak","114","","coniferous forest","Coccothraustes","vespertinus",14
+3,"Pednor WMA","Control","10-Jun-2016","Gadwall","91","","wetland","Anas","strepera",10
+3,"Pednor WMA","Control","10-Jun-2016","Ring-necked Duck","290","","wetland","Aythya","collaris",12
+3,"Pednor WMA","Control","10-Jun-2016","Pine Warbler","477","","coniferous forest","Setophaga","pinus",7
+3,"Pednor WMA","Control","10-Jun-2016","Olive-sided Flycatcher","145","sgcn","coniferous forest","Contopus","cooperi",16
+3,"Pednor WMA","Control","10-Jun-2016","Northern Shoveler","85","","wetland","Anas","clypeata",24
+3,"Pednor WMA","Control","10-Jun-2016","Northern Pintail","32","sgcn","wetland","Anas","acuta",3
+3,"Pednor WMA","Control","10-Jun-2016","Red-tailed Hawk","506","","fragmented","Buteo","jamaicensis",11
+3,"Pednor WMA","Control","10-Jun-2016","Peregrine Falcon","5","SPC","fragmented","Falco","peregrinus",1
+4,"Pickerel WMA","Experimental","15-Jun-2016","Wood Thrush","422","sgcn","deciduous forest","Hylocichla","mustelina",10
+4,"Pickerel WMA","Experimental","15-Jun-2016","Blackburnian Warbler","526","","coniferous forest","Setophaga","fusca",8
+4,"Pickerel WMA","Experimental","15-Jun-2016","Bank Swallow","277","","open upland","Riparia","riparia",14
+4,"Pickerel WMA","Experimental","15-Jun-2016","Black-billed Cuckoo","514","sgcn","fragmented","Coccyzus","erythropthalmus",9
+4,"Pickerel WMA","Experimental","15-Jun-2016","Swainson's Thrush","362","","coniferous forest","Catharus","ustulatus",7
+4,"Pickerel WMA","Experimental","15-Jun-2016","Common Tern","15","THR","wetland","Sterna","hirundo",15
+4,"Pickerel WMA","Experimental","15-Jun-2016","Eurasian Collared-Dove","7","","fragmented","Streptopelia","decaocto",7
+4,"Pickerel WMA","Experimental","15-Jun-2016","Merlin","49","","coniferous forest","Falco","columbarius",NA
+4,"Pickerel WMA","Experimental","15-Jun-2016","Clark's Grebe","1","","wetland","Aechmophorus","clarkii",10
+4,"Pickerel WMA","Experimental","15-Jun-2016","Warbling Vireo","744","","deciduous forest","Vireo","gilvus",15
+4,"Pickerel WMA","Experimental","15-Jun-2016","Purple Finch","438","","coniferous forest","Haemorhous","purpureus",7
+4,"Pickerel WMA","Experimental","15-Jun-2016","Bufflehead","2","","wetland","Bucephala","albeola",14
+4,"Pickerel WMA","Experimental","15-Jun-2016","Great Crested Flycatcher","1866","","deciduous forest","Myiarchus","crinitus",14
+4,"Pickerel WMA","Experimental","15-Jun-2016","Canada Goose","730","","wetland","Branta","canadensis",15
+4,"Pickerel WMA","Experimental","15-Jun-2016","Gray Partridge","28","","open upland","Perdix","perdix",7
+4,"Pickerel WMA","Experimental","15-Jun-2016","Black-and-white Warbler","967","","coniferous forest","Mniotilta","varia",8
+4,"Pickerel WMA","Experimental","15-Jun-2016","Red-tailed Hawk","506","","fragmented","Buteo","jamaicensis",15
+4,"Pickerel WMA","Experimental","15-Jun-2016","Prothonotary Warbler","56","sgcn","deciduous forest","Protonotaria","citrea",8
+4,"Pickerel WMA","Experimental","15-Jun-2016","Eastern Bluebird","371","","fragmented","Sialia","sialis",7
+5,"Spring Creek WMA","Control","10-Jun-2016","Canada Goose","730","","wetland","Branta","canadensis",9
+5,"Spring Creek WMA","Control","10-Jun-2016","Lark Sparrow","61","SPC","open upland","Chondestes","grammacus",5
+5,"Spring Creek WMA","Control","10-Jun-2016","Bald Eagle","188","sgcn","wetland","Haliaeetus","leucocephalus",5
+5,"Spring Creek WMA","Control","10-Jun-2016","Willow Flycatcher","438","sgcn","fragmented","Empidonax","traillii",8
+5,"Spring Creek WMA","Control","10-Jun-2016","Great Blue Heron","657","","wetland","Ardea","herodias",14
+5,"Spring Creek WMA","Control","10-Jun-2016","Black-throated Blue Warbler","288","sgcn","coniferous forest","Setophaga","caerulescens",12
+5,"Spring Creek WMA","Control","10-Jun-2016","Tufted Titmouse","16","","deciduous forest","Baeolophus","bicolor",7
+5,"Spring Creek WMA","Control","10-Jun-2016","Winter Wren","714","sgcn","coniferous forest","Troglodytes","hiemalis",19
+5,"Spring Creek WMA","Control","10-Jun-2016","House Finch","65","","fragmented","Haemorhous","mexicanus",8
+5,"Spring Creek WMA","Control","10-Jun-2016","Virginia Rail","145","sgcn","wetland","Rallus","limicola",15
+5,"Spring Creek WMA","Control","10-Jun-2016","Common Loon","655","sgcn","wetland","Gavia","immer",14
+6,"Shelly Island WMA","Control","2-Jun-2016","Red-headed Woodpecker","320","sgcn","fragmented","Melanerpes","erythrocephalus",1
+6,"Shelly Island WMA","Control","2-Jun-2016","American Redstart","1522","","deciduous forest","Setophaga","ruticilla",10
+6,"Shelly Island WMA","Control","2-Jun-2016","Bay-breasted Warbler","16","sgcn","coniferous forest","Setophaga","castanea",9
+6,"Shelly Island WMA","Control","2-Jun-2016","Bald Eagle","188","sgcn","wetland","Haliaeetus","leucocephalus",0
+6,"Shelly Island WMA","Control","2-Jun-2016","Sharp-tailed Grouse","55","sgcn","open upland","Tympanuchus","phasianellus",13
+6,"Shelly Island WMA","Control","2-Jun-2016","Hermit Thrush","1178","","coniferous forest","Catharus","guttatus",3
+6,"Shelly Island WMA","Control","2-Jun-2016","Summer Tanager","2","","deciduous forest","Piranga","rubra",5
+6,"Shelly Island WMA","Control","2-Jun-2016","Ruffed Grouse","304","","deciduous forest","Bonasa","umbellus ",13
+6,"Shelly Island WMA","Control","2-Jun-2016","Chestnut-collared Longspur","3","END","open upland","Calcarius","ornatus",11
+6,"Shelly Island WMA","Control","2-Jun-2016","Western Meadowlark","931","","open upland","Sturnella","neglecta",17
+6,"Shelly Island WMA","Control","2-Jun-2016","Savannah Sparrow","1465","","open upland","Passerculus","sandwichensis",16
+6,"Shelly Island WMA","Control","2-Jun-2016","Yellow-billed Cuckoo","167","","deciduous forest","Coccyzus","americanus",17
+6,"Shelly Island WMA","Control","2-Jun-2016","Tennessee Warbler","163","","coniferous forest","Oreothlypis","peregrina",6
+6,"Shelly Island WMA","Control","2-Jun-2016","Eurasian Collared-Dove","7","","fragmented","Streptopelia","decaocto",7
+6,"Shelly Island WMA","Control","2-Jun-2016","Mourning Dove","1805","","fragmented","Zenaida","macroura",6
+6,"Shelly Island WMA","Control","2-Jun-2016","Green-winged Teal","78","","wetland","Anas","crecca",8
+6,"Shelly Island WMA","Control","2-Jun-2016","Red-necked Grebe","130","sgcn","wetland","Podiceps","grisegena",1
+6,"Shelly Island WMA","Control","2-Jun-2016","Northern Shoveler","85","","wetland","Anas","clypeata",13
+6,"Shelly Island WMA","Control","2-Jun-2016","Wilson's Phalarope","69","THR","wetland","Phalaropus","tricolor",14
+6,"Shelly Island WMA","Control","2-Jun-2016","Ring-necked Duck","290","","wetland","Aythya","collaris",6
+6,"Shelly Island WMA","Control","2-Jun-2016","Western Grebe","48","sgcn","wetland","Aechmophorus","occidentalis",11
+6,"Shelly Island WMA","Control","2-Jun-2016","Green Heron","188","","wetland","Butorides","virescens",3
