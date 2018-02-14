@@ -5,6 +5,8 @@ title: CSV Header Metadata
 language: R
 ---
 
+[Download the code for this exercise]({{ site.baseurl }}/code/csv-header-metadata.R)
+
 In order to ensure that the bare minimum of metadata is conveyed
 with the data, in can be useful to include the metadata as a
 header object at the top of a data file. This forces the end user 

@@ -1,39 +1,13 @@
----
-layout: exercise
-topic: Metadata
-title: JSON Metadata
-language: R
----
-
-[Download the code for this exercise]({{ site.baseurl }}/code/json-metadata.R)
-
-
-1. Access the [open standard for camera trap data](https://bdj.pensoft.net/article/10197/element/5/3500059/)
-and download Supplementary Material 3, the JSON template. Save the file
-to your project directory.
-
-2. Install and explore the `jsonlite` package. There is much more
-about the relationship between data representation in R and JSON 
-in the [accompanying paper.](https://arxiv.org/abs/1403.2805v1)
-```r
-install.packages('jsonlite')
+# exploring JSON metadata as stand-alone file (great for web API building)
+#install.packages('jsonlite')
 library(jsonlite)
 ?jsonlite
-```
 
-3. Read in the JSON template you downloaded. 
-```r
 ## read in a json schema ####
-template <- fromJSON('oo_99336.json')
+template <- fromJSON('https://ericlind.github.io/data/oo_99336.json')
 str(template)
 template$CameraTrapMetadataStandard
-````
 
-4. From the JSON organization and the open standard paper, the
-data structure can be recreated. Existing records from a table
-of images and identifications can be re-arranged and placed into 
-a list to mimic the JSON schema.
-```r
 ## combining datasets to match schema definitions ####
 myImages <- list(Project = data.frame(ProjectID = 'thelindyardproject.org',
                        ProjectName = 'Lind backyard Summer 2017', 
@@ -56,11 +30,6 @@ myImages <- list(Project = data.frame(ProjectID = 'thelindyardproject.org',
                                           speciesScientificName = c('Vulpes vulpes', rep('Sylvilagus floridanus', 8)))
                        )
 myImages
-```
 
-5. Once the structures are named and nested correctly, the export
-to shareable, findable JSON data is straightforward:
-```r
 toJSON(myImages, pretty = T)
 toJSON(template, pretty = T)
-```
