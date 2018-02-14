@@ -4,6 +4,7 @@ element: notes
 title: Metadata Intro
 language: R
 ---
+[pdf version of this lecture as delivered 12 Feb 2018]({{ site.baseurl }}/materials/metadata.pdf)
 
 # Metadata IS data
 contains fields with values
