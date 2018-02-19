@@ -5,10 +5,6 @@ title: Aggregation
 language: SQL
 ---
 
-> Remember to
->
-> * download [`portal_mammals.sqlite`](https://ndownloader.figshare.com/files/2292171).
-> * connect `portal_mammals.sqlite` to SQLite Manager.
 
 ### Aggregation
 
@@ -16,97 +12,56 @@ language: SQL
 calculate combined values for each group.
 
 ```
-SELECT AVG(weight)
-FROM surveys;
+SELECT AVG(temp)
+FROM collection_event;
 ```
 
 * Other aggregation functions include `MIN`, `MAX`, `SUM`, and `COUNT`.
 
 ```
-SELECT MIN(weight), MAX(weight), AVG(weight)
-FROM surveys;
+SELECT MIN(latitude), MAX(latitude), AVG(latitude)
+FROM sites;
 ```
 
-* We can use `GROUP BY` to calculate these values for different groups. For
-  example, to get the min, max, and average weight for each species.
+* We can use `GROUP BY` to calculate these values for different groups. 
+You can combine `DISTINCT` and `COUNT` to make quick distinct species.
+Also, we will rename this column "species_count".
 
 ```
-SELECT species_id, MIN(weight), MAX(weight), AVG(weight)
-FROM surveys
-GROUP BY species_id;
-```
+SELECT Family, COUNT(DISTINCT(species)) as species_count 
+FROM bee_traits 
+GROUP BY family
+ORDER BY species_count desc;
+````
 
-* We can group by multiple columns as well.
-
-```
-SELECT species_id, plot_id, MIN(weight), MAX(weight), AVG(weight)
-FROM surveys
-GROUP BY species_id, plot_id;
-```
-
-* Aggregation functions remove null values from the calculations.
-* To count the number of individuals identified to species
+* We can group by multiple columns as well. Now this is getting fun. We can count things in a couple of ways.
+Here we can count the number of distinct species in the family Melittidae,
+by Genus.
 
 ```
-SELECT species_id, plot_id, COUNT(species_id)
-FROM surveys;
+SELECT family, genus, COUNT(DISTINCT(species)) AS species_number 
+FROM bee_traits 
+WHERE family = "Melittidae"
+GROUP BY family, genus
+ORDER BY genus desc;
 ```
 
-* To count the number of individuals trapped use
-
-```
-SELECT species_id, plot_id, COUNT(*)
-FROM surveys;
-```
-
-* Using `*` counts any row with at least one non-null value
-* We can name aggregated columns using `as`
-
-```
-SELECT species_id, plot_id, COUNT(*) as count
-FROM surveys;
-```
-
-> Do [Exercise 7 - COUNT]({{ site.baseurl }}/exercises/Aggregation-count-SQL).
 
 ### Filtering after aggregation
 
 * To filter by an outcome of an aggregation use `HAVING`
 
 ```
-SELECT species_id, plot_id, MIN(weight), MAX(weight), AVG(weight)
-FROM surveys
-GROUP BY species_id, plot_id
-HAVING MIN(weight) IS NOT NULL;
+SELECT Family, COUNT(DISTINCT(species)) as species_count 
+FROM bee_traits 
+GROUP BY family
+HAVING species_count > 3;
 ```
 
 * This works after aggregation, whereas `WHERE` works before aggregation
 
-```
-SELECT species_id, plot_id, MIN(weight), MAX(weight), AVG(weight)
-FROM surveys
-WHERE weight > 10
-GROUP BY species_id, plot_id
-HAVING MIN(weight) IS NOT NULL;
-```
 
 ### Only use grouped or aggregated fields in `SELECT`
 
 * When using `GROUP BY` only fields that are in the `GROUP BY` clause or
 aggregated fields should be used in the `SELECT`
-
-```
-SELECT species_id, plot_id, MIN(weight), MAX(weight), AVG(weight)
-FROM surveys
-WHERE weight IS NOT NULL
-GROUP BY species_id, plot_id;
-```
-
-* Using fields that aren't grouped or aggregated give counter intuitive results.
-
-```
-SELECT species_id, plot_id, MIN(weight), MAX(weight), AVG(weight)
-FROM surveys
-WHERE weight IS NOT NULL
-GROUP BY species_id;
-```

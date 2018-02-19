@@ -18,7 +18,7 @@ A MySQL client (e.g. Sequel Pro, HeidiSQL or SQLWorkbench) as well as R.
 First, we will need to install a server. MAMP is a simple, free and powerful software bundle for running a server. MAMP stands for **M**y **A**pache - **M**ySQL - **P**HP. 
 
 Download MAMP at https://www.mamp.info/en/
-
+	
 #### Install and start MAMP
 
 Install MAMP by opening the file. Note that MAMP PRO is a paid version therefore be sure to uncheck boxes that request you download the pro version. Installation could take a few minutes.

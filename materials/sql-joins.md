@@ -5,13 +5,6 @@ title: Joins
 language: SQL
 ---
 
-> Remember to
->
-> *  download [`portal_mammals.sqlite`](https://ndownloader.figshare.com/files/2292171).
-> * connect `portal_mammals.sqlite` to SQLite Manager.
-> * display a fully joined version of the Portal data using:  
-> `SELECT * FROM surveys JOIN species ON surveys.species_id = species.species_id JOIN plots ON surveys.plot_id = plots.plot_id;`
-
 ### Why use multiple tables
 
 * It is often not efficient to include all information of interest in a single
@@ -36,91 +29,84 @@ table.
     * based on condition
   
 ```
-SELECT DISTINCT year, month, day, plot_type 
-FROM surveys
-JOIN species ON surveys.plot_id = plots.plot_id
+SELECT collection_event.site, fdate, treatment, soil
+FROM collection_event
+JOIN sites ON (collection_event.siteID = sites.siteID)
+LIMIT 20
 ```
 
-* This query selects `year`, `month`, and `day` from `surveys` and 
-`plot_type` from the `plots` table.
-    * The query links the `plot_id` from `surveys` with `plot_id` from `plots`.
+* This query selects `site` and `fdate` from the `collection_event` table.
+    * The query links the `siteID` from `sites` with `siteID` from `collection_events`.
 * `ON` basically works like `WHERE`
     * It represents a matching identifier between two tables
-    * In fact, you can even use `WHERE` instead
-    * If you don't limit the join using `ON`, bad things happen, because the
-      JOIN combines each row in `surveys` with every row in `plots`
-
-    ```
-    SELECT DISTINCT year, month, day, plot_type
-    FROM surveys
-    JOIN plots
-    ```
-
 * One way to think about this join is that it adds the information in
-  `plots` to the `surveys` table
+  `sites` to the `collection_events` table
 
-> Do [Exercise 9 - Basic Join]({{ site.baseurl }}/exercises/Advanced-queries-basic-join-SQL/).
 
 * We can also use `USING` as short hand in cases where the column names are the
 same across tables.
 
 ```
-SELECT year, month, day, genus, species
-FROM surveys
-JOIN species USING (species_id);
+SELECT collection_event.site, fdate, treatment, soil
+FROM collection_event
+JOIN sites USING (siteID)
+LIMIT 20
 ```
+
+### Compound Joins
+
+* Joins can be made on more than one identifying column. 
+As these queries can get a bit long, I like to relabel the tables. 
+See the a and b following the tables when first mentioned in the query. 
+Then we can use just those letters in the `ON` clause.
+
+```
+SELECT * from specimens a
+JOIN bee_traits b ON concat(a.genus, a.species) = concat(b.genus, b.species);
+```
+* Ok this is a really big table. Maybe we want just a few traits. 
+Let's do sociality and lecticity.
+
+```
+SELECT a.*, b.sociality, b.lecticity 
+FROM specimens a
+LEFT JOIN bee_traits b on concat(a.genus, a.species) = concat(b.genus, b.species)
+```
+
+* the `LEFT JOIN` here indicates that the first table listed after
+the `FROM` statement is the anchor table which other tables will join--it
+is on the "left," and all of its rows will appear (that meet 
+the `WHERE` condition if applicable). Information from other tables 
+will be joined if the `ON` condition is met. If not, `NULL` 
+values will appear. 
+
+* other types of joins are `INNER JOIN`, `OUTER JOIN`, and `RIGHT JOIN`
+
 
 ### Multi-table join
 
 * Use multiple `JOIN`s to link multiple tables.
 
 ```
-SELECT year, month, day, taxa plot_type
-FROM surveys
-JOIN species ON surveys.species_id = species.species_id
-JOIN plots ON surveys.plot_id = plots.plot_id;
+SELECT genus, species, plant, specimens.site, collection_event.fdate, temp, wind, treatment, soil
+FROM specimens
+JOIN collection_event USING (colleventID)
+LEFT JOIN sites ON (sites.siteID = collection_event.siteID 
+AND sites.site = collection_event.site)
+LIMIT 50;
 ```
 
-### Multi-table join with abbreviations
 
-* The previous `SELECT` statement works because each of the fields are uniquely named.
-* It is safer to write a query that links fields to their table. 
+### Saving queries for future use
 
-```
-SELECT surveys.year, surveys.month, surveys.day, species.taxa, plots.plot_type
-FROM surveys
-JOIN species ON surveys.species_id = species.species_id
-JOIN plots ON surveys.plot_id = plots.plot_id;
-```
-
-* Use abbreviations to help with readability.
+* Views save queries to run again.
+* Create them by using `Create View` in the `View` menu, or by adding `CREATE
+  VIEW *viewname* AS` to the beginning of a query.
 
 ```
-SELECT sv.year, sv.month, sv.day, sp.taxa, p.plot_type
-FROM surveys sv
-JOIN species sp  ON sv.species_id = sp.species_id
-JOIN plots p ON sv.plot_id = p.plot_id;
-```
-
-> Do [Exercise 10 - Multi-table Join]({{ site.baseurl }}/exercises/Advanced-queries-multi-table-join-SQL/).
-
-
-### Combining joins with WHERE, ORDER BY, and aggregation
-
-* Joins can be combined with everything else we've learned about SQL
+CREATE OR REPLACE VIEW species_specimen_traits AS
+SELECT a.*, b.sociality, b.lecticity 
+FROM specimens a
+LEFT JOIN bee_traits b on concat(a.genus, a.species) = concat(b.genus, b.species);
 
 ```
-SELECT sp.genus, sp.species, COUNT(*) as number
-FROM surveys sv
-JOIN species sp  ON sv.species_id = sp.species_id
-JOIN plots p ON sv.plot_id = p.plot_id
-WHERE p.plot_type = 'Rodent Exclosure'
-GROUP BY sp.genus, sp.species
-HAVING number > 50
-ORDER BY number;
-```
-
-* To build of big queries like this start small and then expand
-* Test each step
-
-> Do [Exercise 11 - Filtered Join]({{ site.baseurl }}/exercises/Advanced-queries-filtered-join-SQL/).
