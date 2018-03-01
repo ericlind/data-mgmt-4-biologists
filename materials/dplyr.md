@@ -1,7 +1,7 @@
 ---
 layout: page
 element: notes
-title: Working with Tabular Data
+title: Intro to dplyr
 language: R
 --- 
 

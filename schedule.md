@@ -7,12 +7,12 @@ assignments: ['Introduction and Data Life Cycle',
 'Metadata',
 'Relational Data 1',
 'Relational Data 2',
-'APIs and data integration',
 'Data Manipulation',
+'*Spring Break*',
+'APIs and data integration',
 'Data Visualizations',
 'R-Markdown and R-Shiny',
-'Post-publication and archiving',
-'Data Management Toolbox']
+'Post-publication and archiving']
 ---
 
 {% include assignments.html %}

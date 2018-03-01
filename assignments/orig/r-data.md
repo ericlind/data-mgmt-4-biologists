@@ -1,18 +1,17 @@
 ---
 layout: page
 element: assignment
-title: Working with Data
+title: Data Manipulation
 language: R
-exercises: ['dplyr', 'Shrub Volume Data Basics', 'Shrub Volume Aggregation', 'Shrub Volume Join', 'Fix the Code', 'Link to Databases', 'Collect from Databases']
+exercises: ['dplyr', 'Bee Data Subset', 'Bee Trait Aggregate', 'Bee Table Merge', 'Bee Wide to Long', 'Fix the Code']
 ---
 
 #### Learning Objectives
 
 > Following this assignment students should be able to:
 >
-> - install and load an R package
 > - understand the data manipulation functions of `dplyr`
-> - execute a simple import and analyze data scenario
+> - understand the 
 
 {% include reading.html %}
 
