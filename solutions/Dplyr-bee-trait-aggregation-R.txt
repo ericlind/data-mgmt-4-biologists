@@ -1,0 +1,26 @@
+# A tibble: 12 x 2
+      Subfamily emerge_Julian
+          <chr>         <dbl>
+ 1   Andreninae      159.2445
+ 2       Apinae      199.9172
+ 3   Colletinae      203.2715
+ 4   Halictinae      189.3182
+ 5    Hylaeinae      195.6185
+ 6 Megachilinae      187.8985
+ 7   Melittinae      181.3220
+ 8    Nomadinae      178.2111
+ 9     Nomiinae      180.0000
+10   Panurginae      214.6793
+11   Rophitinae      205.3667
+12  Xylocopinae      180.6079
+
+
+# A tibble: 6 x 2
+        Family emerge_Julian
+         <chr>         <dbl>
+1   Andrenidae      274.0000
+2       Apidae      255.3103
+3   Colletidae      270.3000
+4   Halictidae      247.0385
+5 Megachilidae      280.0000
+6   Melittidae      194.8657

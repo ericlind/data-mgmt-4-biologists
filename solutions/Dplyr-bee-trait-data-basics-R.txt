@@ -1,0 +1,234 @@
+[1] "genus"                   "SubGenus"                "species"                 "subspecies"             
+ [5] "Superfamily"             "Family"                  "Subfamily"               "Tribe"                  
+ [9] "SubTribe"                "Taxon_Author"            "Taxonomy_notes"          "Synonym"                
+[13] "Status_NA"               "Status_notes"            "Body_length_Mitchell"    "Nest_place"             
+[17] "Nest_construction"       "Nest_materials"          "habitat_specialist"      "Nest_notes"             
+[21] "Sociality"               "Sociality_notes"         "Parasitic"               "Parasite_Host_Family"   
+[25] "Parasite_Host_Genus"     "Parasite_Host_Species"   "Parasitized_By"          "Parasitic_notes"        
+[29] "Lecticity"               "Oligolecty_Host_Family"  "Oligolecty_Host_Genus"   "Oligolecty_Host_Species"
+[33] "Oligolecty_notes"        "Voltinism"               "voltinism_notes"         "Distribution"           
+[37] "Flower_records"          "Pheno_mean"              "Pheno_q10"               "Pheno_q90"              
+[41] "Pheno_n"                 "MaxLat"                  "MinLat"                  "n_Lat"                  
+[45] "Notes"                   "Oligolecty_PDrar"        "Abundance_natural"       "MN_DNR"                 
+[49] "redlist_status"          "USFWS_status"            "overwintering"
+
+
+'data.frame':	19412 obs. of  52 variables:
+ $ genus                  : chr  "Acamptopoeum" "Acamptopoeum" "Acamptopoeum" "Acamptopoeum" ...
+ $ SubGenus               : chr  NA NA NA NA ...
+ $ species                : chr  "argentinum" "calchaqui" "columbiense" "fernandezi" ...
+ $ subspecies             : chr  NA NA NA NA ...
+ $ Superfamily            : chr  "Apoidea" "Apoidea" "Apoidea" "Apoidea" ...
+ $ Family                 : chr  "Andrenidae" "Andrenidae" "Andrenidae" "Andrenidae" ...
+ $ Subfamily              : chr  "Panurginae" "Panurginae" "Panurginae" "Panurginae" ...
+ $ Tribe                  : chr  "Calliopsini" "Calliopsini" "Calliopsini" "Calliopsini" ...
+ $ SubTribe               : chr  NA NA NA NA ...
+ $ Taxon_Author           : chr  "(Friese,1906)" "Compagnucci,2004" "Shinn,1965" "Gonzalez,2004" ...
+ $ Taxonomy_notes         : chr  NA NA NA NA ...
+ $ Synonym                : chr  NA NA NA NA ...
+ $ Status_NA              : chr  NA NA NA NA ...
+ $ Status_notes           : chr  NA NA NA NA ...
+ $ Body_length_Mitchell   : num  NA NA NA NA NA NA NA NA NA NA ...
+ $ Nest_place             : chr  NA NA NA NA ...
+ $ Nest_construction      : chr  NA NA NA NA ...
+ $ Nest_materials         : chr  NA NA NA NA ...
+ $ habitat_specialist     : chr  NA NA NA NA ...
+ $ Nest_notes             : chr  NA NA NA NA ...
+ $ Sociality              : chr  NA NA NA NA ...
+ $ Sociality_notes        : chr  NA NA NA NA ...
+ $ Parasitic              : chr  NA NA NA NA ...
+ $ Parasite_Host_Family   : chr  NA NA NA NA ...
+ $ Parasite_Host_Genus    : chr  NA NA NA NA ...
+ $ Parasite_Host_Species  : chr  NA NA NA NA ...
+ $ Parasitized_By         : chr  NA NA NA NA ...
+ $ Parasitic_notes        : chr  NA NA NA NA ...
+ $ Lecticity              : chr  NA NA NA NA ...
+ $ Oligolecty_Host_Family : chr  NA NA NA NA ...
+ $ Oligolecty_Host_Genus  : chr  NA NA NA NA ...
+ $ Oligolecty_Host_Species: chr  NA NA NA NA ...
+ $ Oligolecty_notes       : chr  NA NA NA NA ...
+ $ Voltinism              : chr  NA NA NA NA ...
+ $ voltinism_notes        : chr  NA NA NA NA ...
+ $ Distribution           : chr  NA NA NA NA ...
+ $ Flower_records         : chr  NA NA NA NA ...
+ $ Pheno_mean             : num  NA NA NA NA NA NA NA NA NA NA ...
+ $ Pheno_q10              : num  NA NA NA NA NA NA NA NA NA NA ...
+ $ Pheno_q90              : num  NA NA NA NA NA NA NA NA NA NA ...
+ $ Pheno_n                : int  NA NA NA NA NA NA NA NA NA NA ...
+ $ MaxLat                 : num  NA NA NA NA NA NA NA NA NA NA ...
+ $ MinLat                 : num  NA NA NA NA NA NA NA NA NA NA ...
+ $ n_Lat                  : num  NA NA NA NA NA NA NA NA NA NA ...
+ $ Notes                  : chr  NA NA NA NA ...
+ $ Oligolecty_PDrar       : num  NA NA NA NA NA NA NA NA NA NA ...
+ $ Abundance_natural      : num  NA NA NA NA NA NA NA NA NA NA ...
+ $ MN_DNR                 : int  NA NA NA NA NA NA NA NA NA NA ...
+ $ redlist_status         : chr  NA NA NA NA ...
+ $ USFWS_status           : chr  NA NA NA NA ...
+ $ overwintering          : chr  NA NA NA NA ...
+ $ FamCode                : chr  "Andr" "Andr" "Andr" "Andr" ...
+
+
+         genus SubGenus      species subspecies Superfamily     Family  Subfamily       Tribe SubTribe
+1 Acamptopoeum     <NA>   argentinum       <NA>     Apoidea Andrenidae Panurginae Calliopsini     <NA>
+2 Acamptopoeum     <NA>    calchaqui       <NA>     Apoidea Andrenidae Panurginae Calliopsini     <NA>
+3 Acamptopoeum     <NA>  columbiense       <NA>     Apoidea Andrenidae Panurginae Calliopsini     <NA>
+4 Acamptopoeum     <NA>   fernandezi       <NA>     Apoidea Andrenidae Panurginae Calliopsini     <NA>
+5 Acamptopoeum     <NA>    inauratum       <NA>     Apoidea Andrenidae Panurginae Calliopsini     <NA>
+6 Acamptopoeum     <NA> melanogaster       <NA>     Apoidea Andrenidae Panurginae Calliopsini     <NA>
+      Taxon_Author Taxonomy_notes Synonym Status_NA Status_notes Body_length_Mitchell Nest_place Nest_construction
+1    (Friese,1906)           <NA>    <NA>      <NA>         <NA>                   NA       <NA>              <NA>
+2 Compagnucci,2004           <NA>    <NA>      <NA>         <NA>                   NA       <NA>              <NA>
+3       Shinn,1965           <NA>    <NA>      <NA>         <NA>                   NA       <NA>              <NA>
+4    Gonzalez,2004           <NA>    <NA>      <NA>         <NA>                   NA       <NA>              <NA>
+5 (Cockerell,1926)           <NA>    <NA>      <NA>         <NA>                   NA       <NA>              <NA>
+6 Compagnucci,2004           <NA>    <NA>      <NA>         <NA>                   NA       <NA>              <NA>
+  Nest_materials habitat_specialist Nest_notes Sociality Sociality_notes Parasitic Parasite_Host_Family
+1           <NA>               <NA>       <NA>      <NA>            <NA>      <NA>                 <NA>
+2           <NA>               <NA>       <NA>      <NA>            <NA>      <NA>                 <NA>
+3           <NA>               <NA>       <NA>      <NA>            <NA>      <NA>                 <NA>
+4           <NA>               <NA>       <NA>      <NA>            <NA>      <NA>                 <NA>
+5           <NA>               <NA>       <NA>      <NA>            <NA>      <NA>                 <NA>
+6           <NA>               <NA>       <NA>      <NA>            <NA>      <NA>                 <NA>
+  Parasite_Host_Genus Parasite_Host_Species Parasitized_By Parasitic_notes Lecticity Oligolecty_Host_Family
+1                <NA>                  <NA>           <NA>            <NA>      <NA>                   <NA>
+2                <NA>                  <NA>           <NA>            <NA>      <NA>                   <NA>
+3                <NA>                  <NA>           <NA>            <NA>      <NA>                   <NA>
+4                <NA>                  <NA>           <NA>            <NA>      <NA>                   <NA>
+5                <NA>                  <NA>           <NA>            <NA>      <NA>                   <NA>
+6                <NA>                  <NA>           <NA>            <NA>      <NA>                   <NA>
+  Oligolecty_Host_Genus Oligolecty_Host_Species Oligolecty_notes Voltinism voltinism_notes Distribution
+1                  <NA>                    <NA>             <NA>      <NA>            <NA>         <NA>
+2                  <NA>                    <NA>             <NA>      <NA>            <NA>         <NA>
+3                  <NA>                    <NA>             <NA>      <NA>            <NA>         <NA>
+4                  <NA>                    <NA>             <NA>      <NA>            <NA>         <NA>
+5                  <NA>                    <NA>             <NA>      <NA>            <NA>         <NA>
+6                  <NA>                    <NA>             <NA>      <NA>            <NA>         <NA>
+  Flower_records Pheno_mean Pheno_q10 Pheno_q90 Pheno_n MaxLat MinLat n_Lat Notes Oligolecty_PDrar Abundance_natural
+1           <NA>         NA        NA        NA      NA     NA     NA    NA  <NA>               NA                NA
+2           <NA>         NA        NA        NA      NA     NA     NA    NA  <NA>               NA                NA
+3           <NA>         NA        NA        NA      NA     NA     NA    NA  <NA>               NA                NA
+4           <NA>         NA        NA        NA      NA     NA     NA    NA  <NA>               NA                NA
+5           <NA>         NA        NA        NA      NA     NA     NA    NA  <NA>               NA                NA
+6           <NA>         NA        NA        NA      NA     NA     NA    NA  <NA>               NA                NA
+  MN_DNR redlist_status USFWS_status overwintering FamCode
+1     NA           <NA>         <NA>          <NA>    Andr
+2     NA           <NA>         <NA>          <NA>    Andr
+3     NA           <NA>         <NA>          <NA>    Andr
+4     NA           <NA>         <NA>          <NA>    Andr
+5     NA           <NA>         <NA>          <NA>    Andr
+6     NA           <NA>         <NA>          <NA>    Andr
+
+
+
+
+"(Friese,1906)"    "Compagnucci,2004" "Shinn,1965"       "Gonzalez,2004"    "(Cockerell,1926)" "Compagnucci,2004"
+
+
+
+             Family      Subfamily            Tribe
+1        Andrenidae     Panurginae      Calliopsini
+2        Andrenidae     Panurginae      Calliopsini
+3        Andrenidae     Panurginae      Calliopsini
+4        Andrenidae     Panurginae      Calliopsini
+5        Andrenidae     Panurginae      Calliopsini
+6        Andrenidae     Panurginae      Calliopsini
+7        Andrenidae     Panurginae      Calliopsini
+8        Andrenidae     Panurginae      Calliopsini
+9        Andrenidae     Panurginae      Calliopsini
+10       Andrenidae     Panurginae      Calliopsini
+11       Andrenidae     Panurginae      Calliopsini
+12           Apidae         Apinae     Ericrocidini
+13           Apidae         Apinae     Ericrocidini
+14     Megachilidae   Megachilinae       Anthidiini
+15           Apidae      Nomadinae    Ammobatoidini
+
+
+
+           genus     species
+   1:   Acanthopus   excellens
+   2:   Acanthopus    palmatus
+   3: Aglaomelissa      duckei
+   4:       Bombus     ashtoni
+   5:       Bombus    citrinus
+  ---                         
+1602:   Triepeolus   remigatus
+1603:   Triepeolus rhododontus
+1604:   Triepeolus     rugosus
+1605:   Triepeolus  verbesinae
+1606: Lasioglossum  cephalotes
+
+
+      genus SubGenus     species subspecies Superfamily     Family Subfamily   Tribe SubTribe       Taxon_Author
+3336  Bombus   Bombus     affinis       <NA>     Apoidea     Apidae    Apinae Bombini     <NA>       Cresson,1863
+8420 Hylaeus     <NA> anthracinus       <NA>     Apoidea Colletidae Hylaeinae    <NA>     <NA>       (Smith,1853)
+8432 Hylaeus     <NA>  assimulans       <NA>     Apoidea Colletidae Hylaeinae    <NA>     <NA>     (Perkins,1899)
+8586 Hylaeus     <NA>     facilis       <NA>     Apoidea Colletidae Hylaeinae    <NA>     <NA>       (Smith,1879)
+8655 Hylaeus     <NA>     hilaris       <NA>     Apoidea Colletidae Hylaeinae    <NA>     <NA>       (Smith,1879)
+8712 Hylaeus     <NA>      kuakea       <NA>     Apoidea Colletidae Hylaeinae    <NA>     <NA> Magnacca&Daly,2003
+8736 Hylaeus     <NA>   longiceps       <NA>     Apoidea Colletidae Hylaeinae    <NA>     <NA>     (Perkins,1899)
+8757 Hylaeus     <NA>        mana       <NA>     Apoidea Colletidae Hylaeinae    <NA>     <NA> Magnacca&Daly,2003
+     Taxonomy_notes Synonym Status_NA Status_notes Body_length_Mitchell Nest_place Nest_construction Nest_materials
+3336     LHT_ascher    <NA> NorthEast        21-22                 21.5     cavity     Non_excavator           <NA>
+8420           <NA>    <NA>      <NA>         <NA>                   NA       <NA>              <NA>           <NA>
+8432           <NA>    <NA>      <NA>         <NA>                   NA       <NA>              <NA>           <NA>
+8586           <NA>    <NA>      <NA>         <NA>                   NA       <NA>              <NA>           <NA>
+8655           <NA>    <NA>      <NA>         <NA>                   NA       <NA>              <NA>           <NA>
+8712           <NA>    <NA>      <NA>         <NA>                   NA       <NA>              <NA>           <NA>
+8736           <NA>    <NA>      <NA>         <NA>                   NA       <NA>              <NA>           <NA>
+8757           <NA>    <NA>      <NA>         <NA>                   NA       <NA>              <NA>           <NA>
+     habitat_specialist    Nest_notes Sociality      Sociality_notes Parasitic Parasite_Host_Family
+3336                 No Hive (Annual)  Eusocial Eusocial (Primitive)        No                 <NA>
+8420               <NA>          <NA>      <NA>                 <NA>      <NA>                 <NA>
+8432               <NA>          <NA>      <NA>                 <NA>      <NA>                 <NA>
+8586               <NA>          <NA>      <NA>                 <NA>      <NA>                 <NA>
+8655               <NA>          <NA>      <NA>                 <NA>      <NA>                 <NA>
+8712               <NA>          <NA>      <NA>                 <NA>      <NA>                 <NA>
+8736               <NA>          <NA>      <NA>                 <NA>      <NA>                 <NA>
+8757               <NA>          <NA>      <NA>                 <NA>      <NA>                 <NA>
+     Parasite_Host_Genus Parasite_Host_Species Parasitized_By Parasitic_notes  Lecticity Oligolecty_Host_Family
+3336                <NA>                  <NA>           <NA>            <NA> Polylectic                   <NA>
+8420                <NA>                  <NA>           <NA>            <NA>       <NA>                   <NA>
+8432                <NA>                  <NA>           <NA>            <NA>       <NA>                   <NA>
+8586                <NA>                  <NA>           <NA>            <NA>       <NA>                   <NA>
+8655                <NA>                  <NA>           <NA>            <NA>       <NA>                   <NA>
+8712                <NA>                  <NA>           <NA>            <NA>       <NA>                   <NA>
+8736                <NA>                  <NA>           <NA>            <NA>       <NA>                   <NA>
+8757                <NA>                  <NA>           <NA>            <NA>       <NA>                   <NA>
+     Oligolecty_Host_Genus Oligolecty_Host_Species Oligolecty_notes Voltinism voltinism_notes
+3336                  <NA>                    <NA>             <NA>      <NA>            <NA>
+8420                  <NA>                    <NA>             <NA>      <NA>            <NA>
+8432                  <NA>                    <NA>             <NA>      <NA>            <NA>
+8586                  <NA>                    <NA>             <NA>      <NA>            <NA>
+8655                  <NA>                    <NA>             <NA>      <NA>            <NA>
+8712                  <NA>                    <NA>             <NA>      <NA>            <NA>
+8736                  <NA>                    <NA>             <NA>      <NA>            <NA>
+8757                  <NA>                    <NA>             <NA>      <NA>            <NA>
+                                         Distribution                                              Flower_records
+3336 Ontario to New Brunswick south to North Carolina Aralia Aster Hydrangea Mains Robinia Solidago and Vaccinium
+8420                                             <NA>                                                        <NA>
+8432                                             <NA>                                                        <NA>
+8586                                             <NA>                                                        <NA>
+8655                                             <NA>                                                        <NA>
+8712                                             <NA>                                                        <NA>
+8736                                             <NA>                                                        <NA>
+8757                                             <NA>                                                        <NA>
+     Pheno_mean Pheno_q10 Pheno_q90 Pheno_n   MaxLat  MinLat n_Lat Notes Oligolecty_PDrar Abundance_natural MN_DNR
+3336    202.627   139.093   253.574     424 46.87722 35.3429   480  <NA>               NA                NA     NA
+8420         NA        NA        NA      NA       NA      NA    NA  <NA>               NA                NA     NA
+8432         NA        NA        NA      NA       NA      NA    NA  <NA>               NA                NA     NA
+8586         NA        NA        NA      NA       NA      NA    NA  <NA>               NA                NA     NA
+8655         NA        NA        NA      NA       NA      NA    NA  <NA>               NA                NA     NA
+8712         NA        NA        NA      NA       NA      NA    NA  <NA>               NA                NA     NA
+8736         NA        NA        NA      NA       NA      NA    NA  <NA>               NA                NA     NA
+8757         NA        NA        NA      NA       NA      NA    NA  <NA>               NA                NA     NA
+     redlist_status USFWS_status overwintering FamCode
+3336           <NA>   endangered          <NA>    Apid
+8420           <NA>   endangered          <NA>    Coll
+8432           <NA>   endangered          <NA>    Coll
+8586           <NA>   endangered          <NA>    Coll
+8655           <NA>   endangered          <NA>    Coll
+8712           <NA>   endangered          <NA>    Coll
+8736           <NA>   endangered          <NA>    Coll
+8757           <NA>   endangered          <NA>    Coll
+
+

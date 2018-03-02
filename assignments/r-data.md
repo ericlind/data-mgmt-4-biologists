@@ -3,7 +3,7 @@ layout: page
 element: assignment
 title: Data Manipulation
 language: R
-exercises: ['dplyr', 'Bee Data Subset', 'Bee Trait Aggregate', 'Bee Table Merge', 'Bee Wide to Long', 'Fix the Code']
+exercises: ['dplyr', 'Bee Trait Data Basics', 'Bee Trait Aggregate', 'Bee Table Merge', 'Bee Wide to Long', 'Bee Piping']
 ---
 
 #### Learning Objectives

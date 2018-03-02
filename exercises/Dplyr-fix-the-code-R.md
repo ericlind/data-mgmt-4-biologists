@@ -6,16 +6,13 @@ language: R
 ---
 
 This is a follow-up to
-[Shrub Volume Aggregation]({{ site.baseurl }}/exercises/Dplyr-shrub-volume-aggregation-R).
-If you haven't already downloaded the
-[shrub volume data]({{ site.baseurl }}/data/shrub-volume-experiment.csv)
-do so now and store it in your `data` directory.
+[Bee Trait Aggregation]({{ site.baseurl }}/exercises/Dplyr-bee-trait-aggregation-R)
+and [Bee Table Merge]({{ site.baseurl }}/exercises/Dplyr-Bee-data-join-R).
 
-The following code is supposed to import the shrub volume data and calculate the
-average shrub volume for each site and, separately, for each experiment
+The following code is supposed to import the bee specimen data and calculate the
+average fraction parasitic bees for each site and, separately, for each experiment
 
 ```
-read.csv("data/shrub-volume-experiment.csv")
 shrub_data %>%
   mutate(volume = length * width * height) %>%
   group_by(site) %>%
