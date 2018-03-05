@@ -12,9 +12,17 @@ language: SQL
 You will work in the named repository (ENT5920-Lastname) you created in Week 3.
 
 Use a dataset of your own, preferably one you will be using in your
-research. If you do not have access to a dataset of your own, you can download the ... 
+research. If you do not have access to a dataset of your own, you can download the 
+dataset associated with:
+
+>	Loewen CJG, Vinebrooke RD (2016). Regional diversity reverses 
+> the negative impacts of an alien predator on local species-poor communities. 
+> Ecology 97(10): 2740–2749. 
+
+The dataset can be found [here](https://datadryad.org//resource/doi:10.5061/dryad.pj763)
 
 *Create a database schema* as follows. This is meant to be a visual and conceptual exercise.
+
 You can use the MySQL workbench or
 another GUI database designer, or slidemaker software like Powerpoint, or
 draw it on a piece of paper and scan the file. Whichever method you 
