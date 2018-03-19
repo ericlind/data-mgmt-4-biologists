@@ -1,0 +1,4 @@
+           Family  N
+1:     Compositae 60
+2:      Lamiaceae 20
+3: Plantaginaceae 20

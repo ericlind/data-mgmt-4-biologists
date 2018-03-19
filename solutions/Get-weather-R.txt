@@ -1,0 +1,2 @@
+                  date datatype           station value fl_m fl_q fl_so fl_t
+1: 2014-07-12T00:00:00     PRCP GHCND:USC00218450   216               7 0800
