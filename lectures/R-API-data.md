@@ -13,4 +13,4 @@ language: R
 
 #### [API R packages]({{ site.baseurl }}/materials/api-R-packages)
 
-#### [Joining data]({{ site.baseurl }}/materials/joining-api-data)
+#### [Joining data]({{ site.baseurl }}/materials/data-table-roll-joins)
