@@ -17,7 +17,7 @@ The rOpenSci team has created an R package that queries this API
 directly, called `rnoaa`. 
 
 1. Get a key from NOAA NCDC - this is necessary to use the API package.
-	- go to https://www.ncdc.noaa.gov/cdo-web/token
+	- go to [https://www.ncdc.noaa.gov/cdo-web/token](https://www.ncdc.noaa.gov/cdo-web/token)
 	- enter your email
 	- your "token" or key will be sent to you.
 
