@@ -4,187 +4,310 @@ element: notes
 title: Graphing using ggplot
 language: R
 ---
- 
-> Get familiarized with [metadata](http://www.esapubs.org/archive/ecol/E095/064/metadata.php) - *Acacia drepanolobium* Surveys
 
 ### Data
 
-* Data on acacia size in an experiment in Africa excluding large herbivores
-* Data is tab separated
-* Includes information on if the plant is dead in the HEIGHT column
+To explore visualizations, we will generate some new data to play with.
 
-```
-acacia <- read.csv("http://www.esapubs.org/archive/ecol/E095/064/ACACIA_DREPANOLOBIUM_SURVEY.txt", sep="\t", na.strings = "dead")
-```
+One of the best things about R is its ability to simulate realistic
+data through randomization and factorization.
 
-### Basics
+We will simulate a lakes experiment testing 3 treatments 
+at 22 lakes across four sample rounds through a growing season.
+
 
 ```
 library(ggplot2)
+library(data.table)
+
+# First, we create vectors of factor levels
+trt <- 1:3
+lakes <- 200:221
+sample_round <- 1:4
+
+# Second, use expand.grid to make identifier frame
+dat <- data.table(expand.grid(trt, lakes, sample_round))
+class(dat)
+str(dat)
+setnames(dat, c('trt','lake', 'sample_round'))
+# make lake and trt and sample rounds factors
+dat[, lake := factor(lake)]
+dat[, sample_round := factor(sample_round)]
+dat[, trt := factor(trt)]
+
+# summary table of observations
+dat[, .N, .(lake, trt)]
+
+# Finally, we generate some random data.
+# Chlorophyll A measured by a spectrophotometer:
+dat[, chlA := rnorm(.N, mean = (150 + (10*trt)), sd = 15)]
+
+# Algal species richness measured by microscopic ID:
+dat[, algal_sp := rpois(.N, lambda = 4 + (-trt))]
 ```
+
+Now that we have our data, let's visualize!
+
+
+### Basics
 
 * [`ggplot()`](http://docs.ggplot2.org/current/ggplot.html) arguments:
     * default dataset - what data are we working with
     * set of mappings
         * 'Aesthetics' from variables
 		* what columns should we use for different aspects of the plot
-    * `ggplot(data = acacia, mapping = aes(x = CIRC, y = HEIGHT))`
 
-* Add components of figures with layers
-    * [`geom_point()`](http://docs.ggplot2.org/current/geom_point.html)
+* Add components of figures with layers and '+' sign
+	* [`geom_histogram()`](http://ggplot2.tidyverse.org/reference/geom_histogram.html)
 
-* Scatter plot showing branch circumference and height
 
-```
-ggplot(acacia, aes(x = CIRC, y = HEIGHT)) +
-  geom_point()
-```
-
-* To change things about the layer pass arguments to the geom
+First we specify an 'aesthetic'. The plot is based on the 
+chosen data, and columns. The plot places an x axis that spans
+the range of the algal species data, but no actual data are plotted.
 
 ```
-ggplot(acacia, aes(x = CIRC, y = HEIGHT)) +
-  geom_point(size = 3, color = "blue", alpha = 0.5)
+p <- ggplot(dat, aes(algal_sp))
+p
 ```
 
-* Rescale axes
-    * [`scale_continuous()`](http://docs.ggplot2.org/current/scale_continuous.html)
+After we have created a ggplot object, we can then show the data. 
+This is called by a "+" following immediately after each object. 
+
+How the data are displayed, are described by geometries (`geom_` functions).
+
+For instance, `geom_bar` creates a filled barplot layer:
 
 ```
-ggplot(acacia, aes(x = CIRC, y = HEIGHT)) +
-  geom_point(size = 3, color = "blue", alpha = 0.5) +
-  scale_y_log10() +
-  scale_x_log10()
+p + geom_bar()
 ```
 
-* Not changing the data itself, just the presentation of it
+> Do [Exercise 2 - Chlorophyll A histogram]({{ site.baseurl }}/exercises/Graphing-chla-histogram-R).
 
-* Add Labels (documentation for your graphs!)
+Nearly immediately in any dataset, a question is how one variable
+changes with another. Especially with continuous and factor variables,
+this is a good way to check for outliers.
+
+In `ggplot2` syntax, the definition of the `x` and `y` variables
+are done in the `ggplot()` function, `aes()` argument:
 
 ```
-ggplot(acacia, aes(x = CIRC, y = HEIGHT)) +
-  geom_point(size = 3, color = "blue", alpha = 0.5) +
-  labs(x = "Circumference [cm]", y = "Height [m]",
-       title = "Acacia Survey at UHURU")
+p <- ggplot(dat, aes(x=trt, y=chlA)) 
+p + geom_point()
 ```
 
-> Do [Exercise 2 - Mass vs Metabolism]({{ site.baseurl }}/exercises/Graphing-mass-vs-metabolism-R).
+Here we use the `geom_point` layer to view *all* the data. To summarize
+the data statistically we can use a boxplot:
+
+```
+p + geom_boxplot()
+```
+
+By default the quartiles of the data are shown, along with lines 
+extending to 90% of the normalized data distribution, with points 
+for values outside that 90%. 
+
+A 'violin plot' combines the best of the histogram with the 
+boxplot schematic:
+
+```
+p + geom_violin()
+```
+
+Multiple layers can be added on top of one another:
+
+```
+p +
+	geom_violin() +
+	geom_point()
+```
+
+> Do Exercise 3 [Scatterplot]({{ site.baseurl }}/exercises/Scatterplot-R).
+
 
 ### Grouping
 
-* Group on a single graph
-* Look at influence of experimental treatment
+* Group on a single graph: are there lake differences?
+
+in the aesthetic argument in a `ggplot` function, a group can
+be specified. This can be a color:
 
 ```
-ggplot(acacia, aes(x = CIRC, y = HEIGHT, color = TREATMENT)) +
-  geom_point(size = 3, alpha = 0.5)
-```
-
-* Facet specification
+p <- ggplot(dat, aes(x=algal_sp, y=chlA, col = lake))
+p + geom_point()
 
 ```
-ggplot(acacia, aes(x = CIRC, y = HEIGHT)) +
-  geom_point(size = 3, alpha = 0.5) +
-  facet_wrap(~TREATMENT)
-```
 
-* Where are all the acacia in the open plots? (eaten?)
+But with lots of lakes, the default color palette doesn't separate 
+so well.
 
-> Do Tasks 1-4 in [Exercise 3 - Adult vs Newborn Size]({{ site.baseurl }}/exercises/Graphing-adult-vs-newborn-size-R).
-
-### Layers
-
-* Usage
-    * `ggplot()` sets defaults for layers
-    * Combine layers with `ggplot()` using `+`
-    * Must have at least one layer to plot
-    * Add additional layers, as necessary
-        * Order matters
-
-* Combine different kinds of layers
-* Add a linear model
+or it can be a shape: 
 
 ```
-ggplot(acacia, aes(x = CIRC, y = HEIGHT)) +
-  geom_point() +
-  geom_smooth(method = "lm")
-```
-
-* Do this by treatment
+p <- ggplot(dat, aes(x=algal_sp, y=chlA, shape = trt))
+p + geom_point()
 
 ```
-ggplot(acacia, aes(x = CIRC, y = HEIGHT, color = TREATMENT)) +
-  geom_point() +
-  geom_smooth(method = "lm")
-```
 
-* Combining different data sources
-* Add tree size data for context
-* Layers are plotted in the order they are added
+or it can be a size:
 
 ```
-trees <- read.csv("http://www.esapubs.org/archive/ecol/E095/064/TREE_SURVEYS.txt",
-                  sep="\t", na.strings = c("dead", "missing", "MISSING", "NA"))
-ggplot() +
-  geom_point(data = trees, aes(x = CIRC, y = HEIGHT), color = "gray") +
-  geom_point(data = acacia, aes(x = CIRC, y = HEIGHT), color = "red") +
-  labs(x = "Circumference [cm]", y = "Height [m]")
-```
-
-* Each layer will default to `ggplot()` mappings unless modified
-    * So, we don't have to specify the arguments that are the same
+p <- ggplot(dat, aes(x=algal_sp, y=chlA, size = trt))
+p + geom_point()
 
 ```
-ggplot(mapping = aes(x = CIRC, y = HEIGHT)) +
-  geom_point(data = trees, color = "gray") +
-  geom_point(data = acacia, color = "red") +
-  labs(x = "Circumference [cm]", y = "Height [m]")
-```
 
-> Do Task 5 in [Exercise 3 - Adult vs Newborn Size]({{ site.baseurl }}/exercises/Graphing-adult-vs-newborn-size-R).
-
-### Statistical transformations
-
-* Geoms include statistical transformations
-* So far we've seen
-    * `identity`: the raw form of the data or no transformation
-    * `smooth`: model line (e.g., `loess`, `lm`)
-* Transformations also exist to make things like histograms, bar plots, etc.
-* Occur as defaults in associated Geoms
-
-* To look at the number of acacia in each treatment use a bar plot
-    * [`geom_bar()`](http://docs.ggplot2.org/current/geom_bar.html)
+Groupings can be mixed or crossed to explore interactions:
 
 ```
-ggplot(acacia, aes(x = TREATMENT)) +
-  geom_bar()
+p <- ggplot(dat, aes(x=algal_sp, y=chlA, shape = trt, col = lake))
+p + geom_point()
 ```
 
-* Uses the transformation `stat_count()`
-    * Counts the number of rows for each treatment
+Again, there are too many lakes for this to be meaningful. In
+fact some default `ggplot2` behavior attempts to limit the poor
+decision making here. 
 
-* To look at the distribution of circumferences in the dataset use a histogram
-    * [`geom_histogram()`](http://docs.ggplot2.org/current/geom_histogram.html)
+> Do Exercise 4, [Plotting groups]({{ site.baseurl }}/exercises/Grouping-ggplot-R).
 
-```
-ggplot(acacia, aes(x = CIRC)) +
-  geom_histogram()
-```
-
-* Uses `stat_bins()` for data transformation
-    * Splits circumferences into bins and counts rows in each bin
-* Uses `bins` argument to split data into groups
-    * Defaults to `bins = 30`
-
-* These can be combined with all of the other `ggplot2` features we've learned
+Another way to plot things by lake would be to put all the lakes
+on the x-axis, and chlorophyll on the y axis, and use color to 
+indicate the richness:
 
 ```
-ggplot(acacia, aes(x = CIRC)) +
-  geom_histogram(bins = 15) +
-  scale_x_log10() +
-  facet_wrap(~TREATMENT) +
-  labs(x = "Circumference", y = "Number of Individuals")
+p <- ggplot(dat, aes(x = lake, y = chlA, size = algal_sp))
+p + geom_point()
 ```
+
+And finally, using filled bar plots is not advised for showing 
+individual observations, but can give an idea of cumulative
+totals if those are important:
+
+```
+p <- ggplot(dat, aes(x = lake, y = chlA))
+p + geom_bar(stat = 'identity')
+# IDENTITY is to tell ggplot not to count occurrences but sum them
+```
+
+This is marginally more useful when treatments are indicated:
+
+```
+p <- ggplot(dat, aes(x = lake, y = chlA, fill = trt))
+p + geom_bar(stat = 'identity', position = 'dodge')
+```
+
+When using cumulative totals for the same categories across
+groups, a fractional approach can be helpful:
+
+```
+p <- ggplot(dat, aes(x = lake, y = chlA, fill = trt))
+p + geom_bar(stat = 'identity', position = 'stack')
+
+```
+
+### Facet specification
+
+When there is too much information to grasp happening on one plot,
+we can take advantage of the `facet_` family of functions:
+
+```
+p <- ggplot(dat, aes(x=algal_sp, y=chlA, col = trt))
+p + geom_point() + 
+  facet_wrap(~lake)
+
+```
+
+> Do Exercise 5, [Faceting]({{ site.baseurl }}/exercises/Faceting-ggplot-R).
+
+
+The facet plot gives an enormous advantage when data checking.
+In one visualization you can see:
+* completeness of information by group (i.e., site)
+* range of data across grouns
+* differences by factor within groups (i.e., treatments)
+
+Facet plots should nearly always encourage you to use a multilevel 
+model (i.e. "mixed effects") - but that is a different class.
+
+### Trendlines
+
+The `ggplot` tool is meant to step you from data visualization 
+into modeling, though it is *not* a modeling tool. Still, it can
+visualize the results of models and relationships. 
+
+In fact, there is a relationship that we used to create the data:
+
+```
+p <- ggplot(dat, aes(x = algal_sp, y = chlA))
+p + geom_point() + 
+   stat_smooth(method = 'lm')
+
+```
+
+### Plotting dates
+
+Dates provide special challenges for the data managing biologist. They are
+universally used, easily understandable, and with the
+potential to be formatted more ways than can be imagined. 
+
+Dates are horrible to manage. 
+
+Luckily visualizing data arranged by date, or a time series, is one
+way to start to diagnose potential problems. 
+
+Some data to play with: 
+
+```
+# the seq.Date function generates a sequence of dates
+datedat <- data.table(date = seq.Date(as.Date('2018-01-01'), Sys.Date(), by = 1))
+# the sin function of the rownumber (.I)
+datedat[, y := sin(.I)]
+# need a second date column to show ggplot quirks
+datedat[, datechar := as.character(date)]
+
+```
+
+The `ggplot` functionality nicely formats dates, but *only* if
+they are specified in a particular way:
+
+```
+# the two columns *look* identical
+datedat[, .(date, datechar)]
+
+
+p <- ggplot(datedat, aes(x = datechar, y = y ))
+p + geom_point()
+```
+
+```
+p <- ggplot(datedat, aes(x = date, y = y ))
+p + geom_point()
+```
+
+* Flagging discontinuous time series
+
+Sometimes there is a break in the data that will be important
+to know about, and visualizing by day is the fastest way to 
+find it:
+
+```
+# remove some data and replot:
+datedat[sample(1:.N, 3), date := NA]
+p <- ggplot(datedat, aes(x = date, y = y ))
+p + geom_line()
+
+```
+
+But the `geom_line` function will connect across data observations, 
+hiding the break. Another function (`geom_path`) which 
+more obviously demonstrates the breaks because it tries to plot
+one value for each x.
+
+```
+p <- ggplot(datedat, aes(x = date, y = y ))
+p + geom_path()
+
+```
+
 
 ### Additional information
 
