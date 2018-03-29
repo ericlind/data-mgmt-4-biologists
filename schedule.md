@@ -11,7 +11,7 @@ assignments: ['Introduction and Data Life Cycle',
 '*Spring Break*',
 'APIs and data integration',
 'Data Visualizations',
-'R-Markdown and R-Shiny',
+'R-Markdown and Shiny',
 'Post-publication and archiving']
 ---
 
