@@ -1,7 +1,7 @@
 ---
 layout: page
 element: notes
-title: Knitr
+title: R-markdown & knitr
 language: R
 ---
 
