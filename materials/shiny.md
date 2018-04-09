@@ -29,7 +29,7 @@ necessary to render the website.
 Examples:
 [Operator retention model](https://metrotransitmn.shinyapps.io/operator-retention/)
 
-[Gas usage model](https://metrotransitmn.shinyapps.io/gas-usage/)
+[Gas usage model](https://metrotransitmn.shinyapps.io/gasUsage/)
 
 ### Coding a shiny app
 
