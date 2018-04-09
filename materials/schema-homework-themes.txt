@@ -1,0 +1,48 @@
+# Schema assignment commonalities
+
+### Foreign key / lookup table concept: need two components in a 
+LUT: 1. reference
+	2. value
+	
+### overall "key-value" pair idea
+
+### Star schema: fact & dimension
+
+### intersection tables
+
+### stored statistics versus calculated statistics
+
+### column names formats:
+* kebab-case
+* Train-Case
+* camelCase
+* snake_case
+
+### dimensionality
+what is the lowest level of identifier
+that you can use for a particular piece of data?
+
+### meaningful keys (human readable) versus numeric relations
+* numbers sort quickly and without ambiguity (e.g. dashes)
+
+### dimensionality: things, places, routes, times	
+
+### Data concepts and associated scale
+
+### going "LONG"
+
+Duck_Survey_ID (PK)
+Vegetation_Survey_ID (FK)
+Species
+Lone Pair
+lone male
+lone female
+grouped pair
+
+to 
+
+Duck_Survey_ID (PK)
+Vegetation_Survey_ID (FK)
+Species
+Type (Lone Pair, lone male, lone female etc)
+Number
